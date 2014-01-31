@@ -1,0 +1,138 @@
+---
+layout: govuk_template
+
+discovery_url: 'https://www.gov.uk/service-manual/phases/discovery'
+alpha_url: 'https://www.gov.uk/service-manual/phases/alpha'
+beta_url: 'https://www.gov.uk/service-manual/phases/beta'
+live_url: 'https://www.gov.uk/service-manual/phases/live'
+
+---
+
+{% comment %}
+  Some logic to do the status counts automatically
+{% endcomment %}
+
+{% assign discovery_count = '' %}
+{% assign alpha_count = '' %}
+{% assign beta_count = '' %}
+{% assign live_count = '' %}
+
+{% for post in site.posts %}
+    {% case post.status %}
+        {% when 'discovery' %}
+            {% capture discovery_count %}{{ discovery_count | append:'.' }}{% endcapture %}
+        {% when 'alpha' %}
+            {% capture alpha_count %}{{ alpha_count | append:'.' }}{% endcapture %}
+        {% when 'beta' %}
+            {% capture beta_count %}{{ beta_count | append:'.' }}{% endcapture %}
+        {% when 'live' %}
+            {% capture live_count %}{{ live_count | append:'.' }}{% endcapture %}
+    {% endcase %}
+{% endfor %}
+
+
+<main class="main-content" role="main">
+
+  <header class="homepage-header">
+    <h1>Digital Transformation</h1>
+    <p>Digital services so good people prefer to use them</p>
+  </header>
+
+  <article role="article">
+
+    <h1 class="visuallyhidden">Exemplar statuses</h1>
+
+    <ul class="phases group">
+      <li class="discovery">
+        <h2><a href="{{ page.discovery_url }}">Discovery</a></h2>
+        <div class="phase-count">{{ discovery_count.size }}</div>
+        <p>{{ page.discovery-count-caption }}</p>
+        <p><a href="{{ page.discovery_url }}">Learn more about the discovery phase</a></p>
+      </li>
+
+      <li class="alpha">
+        <h2><a href="{{ page.alpha_url }}">Alpha</a></h2>
+        <div class="phase-count">{{ alpha_count.size }}</div>
+        <p>{{ page.alpha-count-caption }}</p>
+        <p><a href="{{ page.alpha_url }}">Learn more about the alpha phase</a></p>
+      </li>
+
+      <li class="beta">
+        <h2><a href="{{ page.beta_url }}">Beta</a></h2>
+        <div class="phase-count">{{ beta_count.size }}</div>
+        <p>{{ page.beta-count-caption }}</p>
+        <p><a href="{{ page.beta_url }}">Learn more about the beta phase</a></p>
+      </li>
+
+      <li class="live">
+        <h2><a href="{{ page.live_url }}">Live</a></h2>
+        <div class="phase-count">{{ live_count.size }}</div>
+        <p>{{ page.live-count-caption }}</p>
+        <p><a href="{{ page.live_url }}">Learn more about the live phase</a></p>
+      </li>
+    </ul>
+
+  </article>
+
+
+  <article class="group" role="article">
+
+    <h1 class="visuallyhidden">The transformation dashboard</h1>
+
+    <div class="transformation-logo">
+      <img src="assets/images/transformation-logo.png" alt="Transformation programme logo" />
+    </div>
+
+    <div class="transformation-intro">
+
+      {{ page.intro | markdownify }}
+
+      <h2>This month&rsquo;s highlights</h2>
+      {{ page.this-month | markdownify }}
+
+      <h2>Next month</h2>
+      {{ page.next-month | markdownify }}
+
+    </div>
+
+      <h3>A quick look at some exemplars:</h3>
+      {% for item in page.videos %}
+        <p>{{ item.url }} - {{ item.caption }}</p>
+      {% endfor %}
+
+  </article>
+
+  <article role="article">
+    <h1>The exemplars</h1>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Exemplar</th>
+          <th scope="col">Description</th>
+          <th scope="col">Anticipated service volume</th>
+          <th scope="col">Responsible department</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for post in site.posts reversed %}
+        <tr>
+          <td>{{ post.exemplar-number }}</td>
+          <td>
+            <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.status }}<br>
+            {{ post.homepage-intro }}
+          </td>
+          <td>
+            {% for item in post.anticipated-volume %}
+                {% if forloop.first %}
+                    <span>{{ item.number }} {{ item.caption }}</span>
+                {% endif %}
+            {% endfor %}
+          </td>
+          <td>{{ post.department }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </article>
+
+</main>

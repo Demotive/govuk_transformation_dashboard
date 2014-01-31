@@ -1,0 +1,163 @@
+@import 'colours';
+@import 'typography';
+@import 'measurements';
+@import 'css3';
+@import 'conditionals';
+
+// match www.gov.uk footer links (_footer_top.html)
+@import 'alphagov-static-footer';
+
+// phase colours:
+$discovery-colour: $fuschia;
+$alpha-colour: $pink;
+$beta-colour: $orange;
+$live-colour: $grass-green;
+
+// basic layout:
+.main-content {
+  display: block; // Opera and <main> element
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 60px 1em 0 1em;
+}
+
+
+// "homepage" specific
+.homepage-header {
+  //padding: 1em 0 1.5em 0;
+
+  h1 {
+    @include bold-48;
+
+    @include media(tablet) {
+      @include bold-80;
+    }
+  }
+
+  p {
+    @include core-24;
+
+    @include media (tablet) {
+      @include core-36;
+    }
+  }
+}
+
+.phases {
+  list-style: none;
+  margin: 2em 0;
+  padding: 0 0 2em 0;
+  border-bottom: 1px solid $border-colour;
+
+  li {
+    display: block;
+    padding: 0;
+    margin-left: 0;
+    text-align: center;
+
+    @include media(tablet) {
+      width: 24%;
+      float: left;
+      margin: 0 (4%/6);
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  h2 {
+    @include bold-24;
+    margin: 0;
+    padding: 0.2em 0;
+    background-color: $panel-colour;
+
+    a {
+      display: block;
+      height: 100%;
+      color: $white;
+      text-decoration: none;
+    }
+
+  }
+
+  .phase-count {
+    @include bold-80;
+    color: $secondary-text-colour;
+    margin: 0.2em 0;
+  }
+
+  p {
+    @include core-19;
+    margin: 0;
+  }
+
+  .discovery {
+    h2 {
+      background-color: $discovery-colour;
+    }
+
+    .phase-count {
+      color: $discovery-colour;
+    }
+  }
+
+  .alpha {
+    h2 {
+      background-color: $alpha-colour;
+    }
+
+    .phase-count {
+      color: $alpha-colour;
+    }
+  }
+
+  .beta {
+    h2 {
+      background-color: $beta-colour;
+    }
+
+    .phase-count {
+      color: $beta-colour;
+    }
+  }
+
+  .live {
+    h2 {
+      background-color: $live-colour;
+    }
+
+    .phase-count {
+      color: $live-colour;
+    }
+  }
+}
+
+.transformation-logo {
+  display: block;
+  margin: 0 auto 2em auto;
+  max-width: 50%;
+
+  @include media(tablet) {
+    width: $one-quarter;
+    float: left;
+
+    img {
+      max-width: 80%;
+    }
+  }
+}
+.transformation-intro {
+  @include media(tablet) {
+    width: ($one-quarter*3);
+    float: left;
+  }
+  
+  p:first-child {
+    margin-top: 0.5em;
+  }
+}

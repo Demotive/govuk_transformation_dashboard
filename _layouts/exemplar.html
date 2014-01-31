@@ -1,0 +1,78 @@
+---
+layout: govuk_template
+---
+
+<main role="main">
+
+  
+
+</main>
+
+{{ page.last-updated }}
+<br><br>
+{{ page.exemplar-title }}
+<br><br>
+{{ page.exemplar-number }}
+<br><br>
+{{ page.exemplar-service-url }}
+<br><br>
+{{ page.exemplar-blog-url }}
+<br><br>
+{{ page.department }}
+<br><br>
+{{ page.permanent-secretary }}
+<br><br>
+{{ page.digital-leader }}
+<br><br>
+{{ page.department-url }}
+<br><br>
+{{ page.programme }}
+<br><br>
+{{ page.homepage-intro }}
+<br><br>
+{{ page.detail-page-intro | markdownify }}
+<br><br>
+{{ page.digital-strategy-statement | markdownify }}
+<br><br>
+{{ page.digital-strategy-source | markdownify }}
+<br><br>
+{{ page.scope-of-exemplar | markdownify }}
+<br><br>
+{% for item in page.anticipated-volume %}
+    {{ item.number }} - {{ item.caption }}
+{% endfor %}
+<br><br>
+{% for item in page.current-volume %}
+    {{ item.number }} - {{ item.caption }}
+{% endfor %}
+<br><br>
+{% for item in page.current-cost %}
+    {{ item.number }} - {{ item.caption }}
+{% endfor %}
+<br><br>
+{{ page.status }}
+<br><br>
+{{ page.status-strapline | markdownify }}
+<br><br>
+{% for item in page.status-discovery %}
+    {{ item.copy | markdownify | strip_html }} - {{ item.complete }}
+{% endfor %}
+<br><br>
+{% for item in page.status-alpha %}
+    {{ item.copy | markdownify | strip_html }} - {{ item.complete }}
+{% endfor %}
+<br><br>
+{% for item in page.status-beta %}
+    {{ item.copy | markdownify | strip_html }} - {{ item.complete }}
+{% endfor %}
+<br><br>
+{% for item in page.status-live %}
+    {{ item.copy | markdownify | strip_html }} - {{ item.complete }}
+{% endfor %}
+<br><br>
+{{ page.successes | markdownify }}
+<br><br>
+{{ page.challenges | markdownify }}
+<br><br>
+{{ page.next-steps | markdownify }}
+<br><br>
