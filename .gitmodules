@@ -1,3 +1,4 @@
 [submodule "_assets_pipeline/govuk_toolkit"]
 	path = _assets_pipeline/govuk_toolkit
 	url = https://github.com/alphagov/govuk_frontend_toolkit.git
+	ignore = dirty
