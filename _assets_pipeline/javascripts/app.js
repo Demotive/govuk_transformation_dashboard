@@ -3,12 +3,13 @@
 //= require ../govuk_toolkit/javascripts/vendor/jquery/jquery.player.min.js
 
 jQuery(function($) {
-    var $yt_links = $("figure a[href*='https://www.youtube.com/watch']");
+    var $yt_links = $(".media-player-link");
 
     // Create players for our youtube links
     $.each($yt_links, function(i) {
-        var $holder = $('<span class="media-player" />');
-        $(this).parent().replaceWith($holder);
+        var $holder = $('<figure class="media-player" />');
+        var $this = $(this);
+        $this.parent().replaceWith($holder);
         // Find the captions file if it exists
         var $mycaptions = $(this).siblings('.captions');
         // Work out if we have captions or not
@@ -26,5 +27,11 @@ jQuery(function($) {
             url: youTubeURL,
             flashHeight: '350px'
         });
+        // Grab the text if required
+        if ($this.hasClass('titled')) {
+            console.log('arg');
+            var $figcaption = $('<figcaption>' + $this.text() + '</figcaption>');
+            $holder.prepend($figcaption);
+        }
     });
 });

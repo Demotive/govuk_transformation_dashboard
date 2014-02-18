@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Lasting power of attorney"
 exemplar-number: 25
-exemplar-service-link: "https://www.gov.uk/lasting-power-of-attorney"
+exemplar-service-url: "https://www.gov.uk/lasting-power-of-attorney"
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/lasting-power-of-attorney"
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
 department: "Ministry of Justice"
-permanent-secretary: "[Prefix] Ursula Brennan [suffix]"
-digital-leader: "[Prefix] Matthew Coats [suffix]"
+permanent-secretary: "Ursula Brennan"
+digital-leader: "Matthew Coats"
 department-url: "https://www.gov.uk/government/organisations/ministry-of-justice"
 programme: "Office for the Public Guardian"
 

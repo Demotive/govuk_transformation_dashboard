@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Vehicle management"
 exemplar-number: 11
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"
 
 
 department: "Department for Transport"
-permanent-secretary: "[Prefix] Philip Rutnam [suffix]"
-digital-leader: "[Prefix] Brian Etheridge [suffix]"
+permanent-secretary: "Philip Rutnam"
+digital-leader: "Brian Etheridge"
 department-url: "https://www.gov.uk/government/organisations/department-for-transport"
 programme: "Driving and Vehicle Licensing Agency"
 

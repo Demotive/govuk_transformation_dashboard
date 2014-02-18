@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Patent renewals"
 exemplar-number: 4
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 
 
 department: "Department for Business Innovation & Skills"
-permanent-secretary: "[Prefix] Martin Donnelly [suffix]"
-digital-leader: "[Prefix] Ceri Smith [suffix]"
+permanent-secretary: "Martin Donnelly"
+digital-leader: "Ceri Smith"
 department-url: "https://www.gov.uk/government/organisations/department-for-business-innovation-skills"
 programme: "Intellectual Property Office"
 

@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Electoral Registration"
 exemplar-number: 1
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 
 
 department: "Cabinet Office"
-permanent-secretary: "[Prefix] Richard Heaton [suffix]"
-digital-leader: "[Prefix] Paul Maltby [suffix]"
+permanent-secretary: "Richard Heaton"
+digital-leader: "Paul Maltby"
 department-url: "https://www.gov.uk/government/organisations/cabinet-office"
 programme: "Electoral Registration Transformation Programme"
 

@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Your tax account"
 exemplar-number: 17
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"
 
 
 department: "HM Revenue & Customs"
-permanent-secretary: "[Prefix] Lin Homer [suffix]"
-digital-leader: "[Prefix] Mark Dearnley [suffix]"
+permanent-secretary: "Lin Homer"
+digital-leader: "Mark Dearnley"
 department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
 programme: ""
 

@@ -101,9 +101,9 @@ live_url: 'https://www.gov.uk/service-manual/phases/live'
       <h3>A quick look at some exemplars:</h3>
 
       {% for item in page.videos %}
-        <figure class="media-player-wrapper video">
-          <a href="{{ item.url }}">{{ item.caption }}</a>
-        </figure>
+      <div class="media-player-wrapper">
+        <a href="{{ item.url }}" class="media-player-link">{{ item.caption }}</a>
+      </div>
       {% endfor %}
 
     </div>

@@ -6,7 +6,7 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Universal Credit"
 exemplar-number: 14
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 

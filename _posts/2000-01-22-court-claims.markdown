@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Civil claims"
 exemplar-number: 22
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
 department: "Ministry of Justice"
-permanent-secretary: "[Prefix] Ursula Brennan [suffix]"
-digital-leader: "[Prefix] Matthew Coats [suffix]"
+permanent-secretary: "Ursula Brennan"
+digital-leader: "Matthew Coats"
 department-url: "https://www.gov.uk/government/organisations/ministry-of-justice"
 programme: "HM Courts and Tribunals Service"
 

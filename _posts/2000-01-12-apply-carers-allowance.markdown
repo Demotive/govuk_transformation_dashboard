@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Claim Carer's Allowance"
 exemplar-number: 12
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/carers-allowance"
 exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
 
 
 department: "Department for Work & Pensions"
-permanent-secretary: "[Prefix] Robert Devereux [suffix]"
-digital-leader: "[Prefix] Kevin Cunnington [suffix]"
+permanent-secretary: "Robert Devereux"
+digital-leader: "Kevin Cunnington"
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"
 programme: ""
 

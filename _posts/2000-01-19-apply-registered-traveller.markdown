@@ -6,14 +6,14 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Registered traveller"
 exemplar-number: 19
-exemplar-service-link: ""
+exemplar-service-url: ""
 exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 
 
 department: "Home Office"
-permanent-secretary: "[Prefix] Mark Sedwill [suffix]"
-digital-leader: "[Prefix] Mike Parsons [suffix]"
+permanent-secretary: "Mark Sedwill"
+digital-leader: "Mike Parsons"
 department-url: "https://www.gov.uk/government/organisations/home-office"
 programme: ""
 
