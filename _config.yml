@@ -8,7 +8,7 @@ redcarpet:
     smart
   ]
 
-permalink: /:title.html
+permalink: :title.html
 
 exclude: [
     Procfile,
@@ -24,9 +24,11 @@ exclude: [
     spec
 ]
 
-# govuk_template variables
-govuk_template_assets: /assets
+destination: _site/transformation
+baseurl: /transformation
 
+# govuk_template variables
+govuk_template_assets: /transformation/assets
 
 #
 # Plugin: jekyll-assets
@@ -36,11 +38,11 @@ assets:
   # Pathname of the destination of generated (bundled) assets relative
   # to the destination of the root.
   #
-  dirname: assets
+  dirname: /assets
   #
   # Base URL of assets paths.
   #
-  baseurl: /assets/
+  baseurl: /transformation/assets/
   #
   # Pathnames where to find assets relative to the root of the site.
   #

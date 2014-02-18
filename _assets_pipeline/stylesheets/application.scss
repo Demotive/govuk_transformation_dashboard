@@ -4,8 +4,17 @@
 @import 'css3';
 @import 'conditionals';
 
+// based on Whitehall - dept colours and logos
+@import 'departments';
+
 // match www.gov.uk footer links (_footer_top.html)
 @import 'alphagov-static-footer';
+
+// https://github.com/alphagov/static - picked resets
+@import 'static-resets';
+
+// govuk_toolkit - media player styles
+@import 'media-player.scss';
 
 // phase colours:
 $discovery-colour: $fuschia;
@@ -18,22 +27,62 @@ $live-colour: $grass-green;
   display: block; // Opera and <main> element
   max-width: 60em;
   margin: 0 auto;
-  padding: 60px 1em 0 1em;
+  padding: 0 1em;
 }
 
+.breadcrumbs {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: 60em;
+
+  ol {
+    margin: 0;
+    padding: 0.75em 0;
+    border-top: 10px solid $mainstream-brand;
+  }
+
+  li {
+    @include core-16;
+    background-image: url("images/separator.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    float: left;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    padding-right: 1em;
+
+    @include device-pixel-ratio() {
+      background-image: url("images/separator-2x.png");
+      background-size: 6px 11px;
+    }
+
+    &:last-child {
+      background-image: none;
+      margin-right: 0
+    }
+  }
+
+  a {
+    color: $text-colour;
+  }
+
+  strong {
+    font-weight: normal;
+  }
+}
 
 // "homepage" specific
 .homepage-header {
-  //padding: 1em 0 1.5em 0;
-
   h1 {
     @include bold-48;
 
     @include media(tablet) {
       @include bold-80;
+      margin: 7px 0 13px 0; 
     }
   }
-
   p {
     @include core-24;
 
@@ -70,7 +119,7 @@ $live-colour: $grass-green;
     }
   }
 
-  h2 {
+  h3 {
     @include bold-24;
     margin: 0;
     padding: 0.2em 0;
@@ -92,12 +141,11 @@ $live-colour: $grass-green;
   }
 
   p {
-    @include core-19;
     margin: 0;
   }
 
   .discovery {
-    h2 {
+    h3 {
       background-color: $discovery-colour;
     }
 
@@ -107,7 +155,7 @@ $live-colour: $grass-green;
   }
 
   .alpha {
-    h2 {
+    h3 {
       background-color: $alpha-colour;
     }
 
@@ -117,7 +165,7 @@ $live-colour: $grass-green;
   }
 
   .beta {
-    h2 {
+    h3 {
       background-color: $beta-colour;
     }
 
@@ -127,13 +175,41 @@ $live-colour: $grass-green;
   }
 
   .live {
-    h2 {
+    h3 {
       background-color: $live-colour;
     }
 
     .phase-count {
       color: $live-colour;
     }
+  }
+}
+
+.phase-tag {
+  @include bold-16;
+  display: inline-block;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 2px 5px 0;
+  position: relative;
+  top: -2px;
+
+  &.discovery {
+    background-color: $discovery-colour;
+  }
+
+  &.alpha {
+    background-color: $alpha-colour;
+  }
+
+  &.beta {
+    background-color: $beta-colour;
+  }
+
+  &.live {
+    background-color: $live-colour;
   }
 }
 
@@ -151,13 +227,71 @@ $live-colour: $grass-green;
     }
   }
 }
+
 .transformation-intro {
+  margin-bottom: 2em;
+
   @include media(tablet) {
     width: ($one-quarter*3);
     float: left;
   }
   
+  h3 {
+    font-weight: 700;
+  }
+
   p:first-child {
     margin-top: 0.5em;
   }
+}
+
+.videos {
+  clear: both;
+  padding-top: 1em;
+  border-top: 1px solid $border-colour;
+}
+.media-player {
+  @include media-player;
+}
+
+.exemplar-listing {
+  border-collapse: collapse;
+  td {
+    vertical-align: top;
+    padding: 10px 2% 1em 0;
+    border-top: 1px solid $border-colour;
+  }
+  tr:first-child td {
+    border-top: none;
+  }
+  .description {
+    width: 55%;
+  }
+  .volume,
+  .department {
+    width: 20%;
+  }
+  h3,
+  .exemplar-number,
+  .volume-number {
+    @include bold-24;
+  }
+  .volume-number,
+  .volume-caption {
+    display: block;
+  }
+  .exemplar-number {
+    text-align: right;
+  }
+  h3 {
+    margin-top: 0;
+  }
+  .volume-caption {
+    @include core-19;
+  }
+}
+
+.organisation {
+  display: block;
+  text-decoration: none;
 }
