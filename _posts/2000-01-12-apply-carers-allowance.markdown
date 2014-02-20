@@ -6,7 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Claim Carer's Allowance"
 exemplar-number: 12
-exemplar-service-url: ""
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/carers-allowance"
 exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
 
@@ -15,7 +14,6 @@ department: "Department<br>for Work &<br>Pensions"
 permanent-secretary: "Robert Devereux"
 digital-leader: "Kevin Cunnington"
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"
-programme: ""
 
 
 homepage-intro: |
@@ -58,11 +56,11 @@ status-strapline: "In public beta. Digital take-up of the service continues to i
 
 status-discovery:
   - copy      : "Completed --- Sep 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- Dec 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Completed: --- Jul 2013"

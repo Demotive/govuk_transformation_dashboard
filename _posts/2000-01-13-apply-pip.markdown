@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Claim Personal Independence Payment (PIP)"
 exemplar-number: 13
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
 
 
@@ -15,7 +13,6 @@ department: "Department<br>for Work &<br>Pensions"
 permanent-secretary: "Robert Devereux"
 digital-leader: "Kevin Cunnington"
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"
-programme: ""
 
 
 homepage-intro: |
@@ -41,12 +38,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 2m
     caption : People supported
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "discovery"
@@ -54,11 +45,11 @@ status-strapline: "Discovery complete. Further work on the Personal Independence
 
 status-discovery:
   - copy      : "Completed: discovery and pre-alpha --- Sep to Dec 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Target: alpha development --- (date tbc)"
-    Complete  : false
+    complete  : false
 
 status-beta:
   - copy      : "Target: beta development to start --- (date tbc)"
@@ -86,9 +77,6 @@ videos:
     caption : ""
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

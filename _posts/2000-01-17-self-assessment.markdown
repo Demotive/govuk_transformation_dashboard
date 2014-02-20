@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Your tax account"
 exemplar-number: 17
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"
 
 
@@ -15,7 +13,6 @@ department: "HM Revenue<br>& Customs"
 permanent-secretary: "Lin Homer"
 digital-leader: "Mark Dearnley"
 department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
-programme: ""
 
 
 homepage-intro: |
@@ -39,12 +36,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 4.9m
     caption : Small businesses and people in self assessment 
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -52,11 +43,11 @@ status-strapline: "Preparing for private beta release in February 2014. This ser
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Complete: tax platform alpha --- Mar to May 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Development of private beta --- Jun 2013 to Jan 2014"

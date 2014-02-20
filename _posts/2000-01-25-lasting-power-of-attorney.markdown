@@ -49,11 +49,11 @@ status-strapline: "In public beta and on track."
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- Feb to Apr 2012"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Beta development --- Jul 2012 to Jun 2013"

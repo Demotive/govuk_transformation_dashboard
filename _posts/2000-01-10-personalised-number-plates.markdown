@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Personalised registrations"
 exemplar-number: 10
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"
 
 
@@ -39,12 +37,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 1.6m
     caption : Transactions a year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "alpha"
@@ -52,7 +44,7 @@ status-strapline: "In early alpha. The core service is being planned and designe
 
 status-discovery:
   - copy      : "Completed --- Oct 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Alpha development phase, following completion of Vehicle Management alpha --- April 2014 to June 2014"
@@ -87,9 +79,6 @@ videos:
     caption : Watch an update from the DVLA team, filmed December 2013.
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

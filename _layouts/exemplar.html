@@ -174,8 +174,9 @@ layout: govuk_template
 
         <p>Figures from <a href="#">Transactions Explorer</a> for nearest comparable service</p>
 
-        <div class="unit">
-          {% if page.current-volume %}
+        
+        {% if page.current-volume %}
+          <div class="unit">
             <h2>Current volume</h2>
             {% for item in page.current-volume %}
               <p>
@@ -183,33 +184,31 @@ layout: govuk_template
                 {{ item.caption }}
               </p>
             {% endfor %}
-          {% endif %}
-        </div>
+          </div>
+        {% endif %}
 
-        <div class="unit">
-          {% if page.current-cost %}
-            <h2>Current cost</h2>
-            {% for item in page.current-cost %}
-              <p>
-                <span class="lrg-number transactions-explorer">{{ item.number }}</span>
-                {{ item.caption }}
-              </p>
-            {% endfor %}
-          {% endif %}
-        </div>
+        {% if page.current-cost %}
+          <h2>Current cost</h2>
+          {% for item in page.current-cost %}
+            <p>
+              <span class="lrg-number transactions-explorer">{{ item.number }}</span>
+              {{ item.caption }}
+            </p>
+          {% endfor %}
+        {% endif %}
 
       {% endif %}
 
 
       <aside>
         <h2 class="visuallyhidden">Related links</h2>
-        {% if page.exemplar-service-url != '' %}
+        {% if page.exemplar-service-url %}
         <div>
           <h3>Service link</h3>
           <a href="{{ page.exemplar-service-url }}">{{ page.exemplar-service-url }}</a>
         </div>
         {% endif %}
-        {% if page.exemplar-performance-dashboard-url != '' %}
+        {% if page.exemplar-performance-dashboard-url %}
         <div>
           <h3>Service performance</h3>
           <a href="{{ page.exemplar-performance-dashboard-url }}">{{ page.exemplar-performance-dashboard-url }}</a>
@@ -220,7 +219,7 @@ layout: govuk_template
     </div>
 
     <footer class="content-body">
-      {% if page.exemplar-blog-url != '' %}
+      {% if page.exemplar-blog-url %}
         <p>For further information about this project please visit <a href="{{ page.exemplar-blog-url }}">our blog</a> or <a href="/contact/govuk">contact us</a>.</p>
       {% else %}
         <p>For further information about this project please <a href="/contact/govuk">contact us</a>.</p>

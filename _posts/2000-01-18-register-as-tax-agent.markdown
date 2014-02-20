@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Agent online self-serve"
 exemplar-number: 18
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"
 
 
@@ -15,7 +13,6 @@ department: "HM Revenue<br>& Customs"
 permanent-secretary: "Lin Homer"
 digital-leader: "Mark Dearnley"
 department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
-programme: ""
 
 
 homepage-intro: |
@@ -39,12 +36,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 120k
     caption : Tax agents
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -52,11 +43,11 @@ status-strapline: "Output of discovery and alpha being incorporated into [identi
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Complete: tax platform alpha --- Mar to May 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Discovery and development work with the identity assurance (IDA) team --- Dec 2013 to Mar 2014"
@@ -89,9 +80,6 @@ videos:
     caption : ""
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

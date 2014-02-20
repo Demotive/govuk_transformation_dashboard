@@ -7,7 +7,6 @@ last-updated: "28 January, 2014"
 exemplar-title: "Employment tribunal fee payment"
 exemplar-number: 23
 exemplar-service-url: "https://www.gov.uk/apply-employment-tribunal"
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
@@ -40,12 +39,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 200k
     caption : Transactions per year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -53,11 +46,11 @@ status-strapline: "In beta and on track."
 
 status-discovery:
   - copy      : "Only exemplar to go straight to beta"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Only exemplar to go straight to beta"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Completed: Public Beta --- Jul 2013"
@@ -95,9 +88,6 @@ videos:
     caption : "Watch an update about the beta, filmed December 2013."
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

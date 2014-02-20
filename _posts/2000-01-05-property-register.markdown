@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Property register"
 exemplar-number: 5
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blog.landregistry.gov.uk/"
 
 
@@ -39,12 +37,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 598k
     caption : Customer requests a year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "alpha"
@@ -84,9 +76,6 @@ videos:
     caption : Watch a demonstration of the mapping tool, filmed July 2013.
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 ---
 

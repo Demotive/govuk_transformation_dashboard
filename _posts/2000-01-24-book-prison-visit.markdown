@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Prison visit booking"
 exemplar-number: 24
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
@@ -57,11 +55,11 @@ status-strapline: "Early alpha. Limited public alpha product being tested with p
 
 status-discovery:
   - copy      : "Completed --- Jul 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Alpha phase starts --- Oct 2013"
-    Complete  : true
+    complete  : true
   - copy      : "User testing of alpha product with prisons --- Dec 2013 to Jan 2014"
     complete  : false
   - copy      : "API deployment with early adopters of service --- Apr 2014"

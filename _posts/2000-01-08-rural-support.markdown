@@ -6,16 +6,12 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Rural support (Common Agricultural Policy)"
 exemplar-number: 8
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Department<br>for Environment<br>Food & Rural Affairs"
 permanent-secretary: "Bronwyn Hill"
 digital-leader: "Ian Trenholm"
 department-url: "https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs"
-programme: ""
 
 
 homepage-intro: |

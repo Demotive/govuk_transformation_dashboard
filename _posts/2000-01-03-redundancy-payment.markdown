@@ -6,9 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Redundancy payments"
 exemplar-number: 3
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Department<br>for Business<br>Innovation & Skills"
@@ -39,12 +36,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 270k
     caption : Transactions a year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -91,9 +82,6 @@ videos:
     caption : ""
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 ---
 

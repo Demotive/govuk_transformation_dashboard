@@ -6,9 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Electoral Registration"
 exemplar-number: 1
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Cabinet Office"
@@ -43,12 +40,6 @@ anticipated-volume:
     caption : Confirmed on the electoral register in first year
   - number  : 5m
     caption : New applications in first year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -56,7 +47,7 @@ status-strapline: "In beta and on track"
 
 status-discovery:
   - copy      : "Completed --- Feb 2012"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- May 2012"

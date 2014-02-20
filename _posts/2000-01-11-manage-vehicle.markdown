@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Vehicle management"
 exemplar-number: 11
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"
 
 
@@ -39,12 +37,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 18m
     caption : Transactions every year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "alpha"
@@ -52,7 +44,7 @@ status-strapline: "In early alpha. The core service is being planned and designe
 
 status-discovery:
   - copy      : "Completed --- Oct 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Alpha development phase --- Jan 2014 to Mar 2014"
@@ -88,9 +80,6 @@ videos:
     caption : Watch an update from the DVLA team, filmed December 2013.
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

@@ -6,9 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Criminal record check"
 exemplar-number: 20
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Home Office"
@@ -61,19 +58,19 @@ status-strapline: |
 
 status-discovery:
   - copy      : "Completed --- Jul 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "To be determined"
-    Complete  : false
+    complete  : false
 
 status-beta:
   - copy      : "To be determined"
-    Complete  : false
+    complete  : false
 
 status-live:
   - copy      : "To be determined"
-    Complete  : false
+    complete  : false
 
 
 successes: |
@@ -92,9 +89,6 @@ videos:
     caption : ""
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

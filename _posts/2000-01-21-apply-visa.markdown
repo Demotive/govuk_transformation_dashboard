@@ -6,16 +6,12 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Visit visa applications"
 exemplar-number: 21
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Home Office"
 permanent-secretary: "Mark Sedwill"
 digital-leader: "Mike Parsons"
 department-url: "https://www.gov.uk/government/organisations/home-office"
-programme: ""
 
 
 homepage-intro: |
@@ -56,11 +52,11 @@ status-strapline: "Developing the private beta service."
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- Jul 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Private beta development --- Sep 2013 to Jan 2014"

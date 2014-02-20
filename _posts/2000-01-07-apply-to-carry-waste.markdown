@@ -7,7 +7,6 @@ last-updated: "28 January, 2014"
 exemplar-title: "Waste carrier registration"
 exemplar-number: 7
 exemplar-service-url: "https://www.gov.uk/register-waste-carrier"
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "https://eadigital.blog.gov.uk/"
 
 
@@ -42,12 +41,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 200k
     caption : registrations in first year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"

@@ -6,9 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Apprenticeship applications"
 exemplar-number: 2
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Department<br>for Business<br>Innovation & Skills"
@@ -39,12 +36,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 1.38m
     caption : Applications a year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "discovery"
@@ -92,8 +83,5 @@ videos:
     caption : Watch a short update about the discovery findings, filmed December 2013.
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 ---

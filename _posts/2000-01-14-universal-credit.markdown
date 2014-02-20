@@ -6,16 +6,12 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Universal Credit"
 exemplar-number: 14
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Department<br>for Work &<br>Pensions"
 permanent-secretary: ""
 digital-leader: ""
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"
-programme: ""
 
 
 homepage-intro: |
@@ -39,12 +35,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 10m
     caption : Adults supported
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -52,13 +42,13 @@ status-strapline: "Digital strategic solution produced by joint GDS and DWP team
 
 status-discovery:
   - copy      : "Workshops with DWP and GDS --- Apr 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Ministerial oversight group ask GDS to start digital solution --- May 2013"
-    Complete  : true
+    complete  : true
   - copy      : "Strategic solution (Digital) team established --- Jun 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Delivered digital strategic solution --- Oct 2013"
@@ -88,9 +78,6 @@ videos:
     caption : "Watch a demonstration of the service built by the Government Digital Service and DWP, delivered in October 2013."
 
 
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

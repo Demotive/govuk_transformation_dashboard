@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Civil claims"
 exemplar-number: 22
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
@@ -57,11 +55,11 @@ status-strapline: "In beta and on track."
 
 status-discovery:
   - copy      : "Completed --- Jul 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- Oct 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Beta development started --- Nov 2013"

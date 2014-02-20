@@ -6,8 +6,6 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "View driving record"
 exemplar-number: 9
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"
 
 
@@ -43,12 +41,6 @@ anticipated-volume:
     caption : Insurers (hits / year)
   - number  : 6m
     caption : Drivers (forecast)
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"

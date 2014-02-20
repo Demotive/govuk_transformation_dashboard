@@ -7,7 +7,6 @@ last-updated: "28 January, 2014"
 exemplar-title: "Student finance"
 exemplar-number: 6
 exemplar-service-url: "www.gov.uk/apply-online-for-student-finance"
-exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.studentfinancedigital.blog.gov.uk"
 
 

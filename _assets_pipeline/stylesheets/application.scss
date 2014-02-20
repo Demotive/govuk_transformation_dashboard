@@ -258,7 +258,7 @@ ul {
   color: $white;
   letter-spacing: 1px;
   text-decoration: none;
-  padding: 2px 5px 0;
+  padding: 2px 8px 0;
 
   &.discovery {
     background-color: $discovery-colour;
@@ -326,6 +326,18 @@ ul {
     li {
       @include core-19;
       margin-bottom: 0.5em;
+    }
+    &.discovery .complete {
+        color: $discovery-colour;
+    }
+    &.alpha .complete {
+        color: $alpha-colour;
+    }
+    &.beta .complete {
+        color: $beta-colour;
+    }
+    &.live .complete {
+        color: $live-colour;
     }
   }
 

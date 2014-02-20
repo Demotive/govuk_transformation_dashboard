@@ -6,16 +6,12 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Registered traveller"
 exemplar-number: 19
-exemplar-service-url: ""
-exemplar-performance-dashboard-url: ""
-exemplar-blog-url: ""
 
 
 department: "Home Office"
 permanent-secretary: "Mark Sedwill"
 digital-leader: "Mike Parsons"
 department-url: "https://www.gov.uk/government/organisations/home-office"
-programme: ""
 
 
 homepage-intro: |
@@ -38,13 +34,7 @@ scope-of-exemplar: |
 
 anticipated-volume:
   - number  : 400k
-    caption : From April 2014, up to 400,000 travellers who visit the UK several times per year will be able to access the scheme.
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
+    caption : <small>From April 2014, up to 400,000 travellers who visit the UK several times per year will be able to access the scheme.</small>
 
 
 status: "beta"
@@ -52,11 +42,11 @@ status-strapline: "In beta since 5 December 2013. Development on track."
 
 status-discovery:
   - copy      : "Completed --- Jul 2013"
-    Complete  : true
+    complete  : true
 
 status-alpha:
   - copy      : "Completed --- Nov 2013"
-    Complete  : true
+    complete  : true
 
 status-beta:
   - copy      : "Beta development started --- Dec 2013"
