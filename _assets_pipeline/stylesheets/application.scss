@@ -112,8 +112,11 @@ h1 {
 
 .homepage-header {
   h1 {
-    @include bold-80;
     margin: 7px 0 13px 0;
+
+    @include media(tablet) {
+      @include bold-80;
+    }
   }
   p {
     @include core-36;
@@ -169,13 +172,14 @@ ul {
 
   li {
     display: block;
-    padding: 0;
+    padding: 0 0 1em 0;
     margin-left: 0;
     text-align: center;
 
     @include media(tablet) {
       width: 24%;
       float: left;
+      padding: 0;
       margin: 0 (4%/6);
 
       &:first-child {
@@ -204,8 +208,8 @@ ul {
   }
 
   .phase-count {
-    margin: 0.2em 0;
     color: $secondary-text-colour;
+    margin: 0.2em 0;
   }
 
   p {
@@ -344,7 +348,7 @@ ul {
 .transformation-logo {
   display: block;
   margin: 0 auto 2em auto;
-  max-width: 50%;
+  text-align: center;
 
   @include media(tablet) {
     width: $one-quarter;
@@ -387,22 +391,103 @@ ul {
   }
 
 .exemplar-listing {
+  display: block;
   border-collapse: collapse;
-  td {
-    vertical-align: top;
-    padding: 10px 2% 1em 0;
+
+  @include media(desktop) {
+    display: table;
+  }
+
+  tr {
+    display: block;
+    position: relative;
+    clear: both;
+
     border-top: 1px solid $border-colour;
+    margin-top: 1em;
+    padding-top: 1em;
+
+    @include media(desktop) {
+      display: table-row;
+      margin: 0;
+      padding: 0 
+    }
   }
-  tr:first-child td {
+
+  td {
+    display: block;
+    vertical-align: top;
+
+    @include media(desktop) {
+      display: table-cell;
+      padding: 10px 2% 1em 0;
+      margin: 0;
+      border-top: 1px solid $border-colour;
+    }
+  }
+
+  tr:first-child {
+    margin-top: 0;
+    padding-top: 0;
     border-top: none;
+    td {
+      border-top: none;
+    }
   }
+
+  .exemplar-number {
+    position: absolute;
+
+    @include media(desktop) {
+      position: static;
+      text-align: right;
+    }
+  }
+  
   .description {
-    width: 55%;
+    margin-left: 8%;
+
+    @include media(tablet) {
+      float: left;
+      width: 52%;
+    }
+
+    @include media(desktop) {
+      float: none;
+    }
   }
-  .volume,
+  .volume {
+    margin-left: 8%;
+    padding-bottom: 1em;
+
+    @include media(tablet) {
+      float: left;
+      width: 52%;
+    }
+
+    @include media(desktop) {
+      float: none;
+      width: 20%;
+    }
+  }
   .department {
-    width: 20%;
+    margin-left: 8%;
+    padding-bottom: 1em;
+
+    @include media(tablet) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30%;
+      padding-top: 1em;
+    }
+
+    @include media(desktop) {
+      position: static;
+      width: 20%;
+    }
   }
+
   h3,
   .exemplar-number,
   .volume-number {
@@ -412,9 +497,7 @@ ul {
   .volume-caption {
     display: block;
   }
-  .exemplar-number {
-    text-align: right;
-  }
+
   h3 {
     margin-top: 0;
   }
