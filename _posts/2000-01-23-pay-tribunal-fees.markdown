@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
 
 
-department: "Ministry of Justice"
+department: "Ministry<br>of Justice"
 permanent-secretary: "Ursula Brennan"
 digital-leader: "Matthew Coats"
 department-url: "https://www.gov.uk/government/organisations/ministry-of-justice"

@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"
 
 
-department: "HM Revenue & Customs"
+department: "HM Revenue<br>& Customs"
 permanent-secretary: "Lin Homer"
 digital-leader: "Mark Dearnley"
 department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"

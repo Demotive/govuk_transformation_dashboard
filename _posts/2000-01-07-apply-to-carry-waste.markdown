@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "https://eadigital.blog.gov.uk/"
 
 
-department: "Department for Environment Food & Rural Affairs"
+department: "Department<br>for Environment<br>Food & Rural Affairs"
 permanent-secretary: "Bronwyn Hill"
 digital-leader: "Ian Trenholm"
 department-url: "https://www.gov.uk/government/organisations/department-for-business-innovation-skills"

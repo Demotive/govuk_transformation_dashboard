@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: "https://www.gov.uk/performance/carers-allow
 exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
 
 
-department: "Department for Work & Pensions"
+department: "Department<br>for Work &<br>Pensions"
 permanent-secretary: "Robert Devereux"
 digital-leader: "Kevin Cunnington"
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"

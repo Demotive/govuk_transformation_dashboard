@@ -22,13 +22,35 @@ $alpha-colour: $pink;
 $beta-colour: $orange;
 $live-colour: $grass-green;
 
+/* --------------------------------------------------------- */
 // basic layout:
+
 .main-content {
   display: block; // Opera and <main> element
   max-width: 60em;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 0 1em 2em 1em;
 }
+
+.content-body {
+  @include box-sizing(border-box);
+
+  width: $two-thirds;
+  float: left;
+  padding-right: 60px;
+}
+
+.content-sidebar {
+  @include box-sizing(border-box);
+
+  width: $one-third;
+  float: right;
+  padding-left: 20px;
+}
+
+/* --------------------------------------------------------- */
+
+// gov.uk breadcrumbs
 
 .breadcrumbs {
   margin: 0 auto;
@@ -73,22 +95,63 @@ $live-colour: $grass-green;
   }
 }
 
-// "homepage" specific
-.homepage-header {
-  h1 {
+/* --------------------------------------------------------- */
+
+// Base level type
+
+// Page headers
+h1 {
     @include bold-48;
 
-    @include media(tablet) {
-      @include bold-80;
-      margin: 7px 0 13px 0; 
+    span {
+      @include core-27($line-height: 1);
+      display: block;
+      margin-bottom: 0.25em;
+      color: $secondary-text-colour ;
     }
+}
+
+// Homepage
+.homepage-header {
+  h1 {
+    @include bold-80;
+    margin: 7px 0 13px 0;
   }
   p {
-    @include core-24;
+    @include core-36;
+  }
+}
 
-    @include media (tablet) {
-      @include core-36;
-    }
+h2 {
+  font-weight: 700;
+}
+.exemplar-status h2 {
+  margin-top: 0;
+}
+
+// Basic unordered lists
+ul {
+  list-style-type: disc;
+  margin: 5px 0 20px 20px;
+  padding: 0;
+
+  li {
+    @include core-19;
+    margin-bottom: 5px;
+  }
+}
+
+.lrg-number {
+  @include bold-80;
+  display: block;
+}
+
+/* --------------------------------------------------------- */
+
+.exemplar-intro {
+  margin: 1.5em 0;
+  p {
+    @include core-24;
   }
 }
 
@@ -135,9 +198,8 @@ $live-colour: $grass-green;
   }
 
   .phase-count {
-    @include bold-80;
-    color: $secondary-text-colour;
     margin: 0.2em 0;
+    color: $secondary-text-colour;
   }
 
   p {
@@ -186,15 +248,11 @@ $live-colour: $grass-green;
 }
 
 .phase-tag {
-  @include bold-16;
   display: inline-block;
   color: $white;
-  text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   padding: 2px 5px 0;
-  position: relative;
-  top: -2px;
 
   &.discovery {
     background-color: $discovery-colour;
@@ -210,6 +268,55 @@ $live-colour: $grass-green;
 
   &.live {
     background-color: $live-colour;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  .exemplar-listing & {
+    @include bold-16;
+    position: relative;
+    top: -2px;
+    text-transform: uppercase;
+  }
+
+  .phase-story & {
+    @include bold-19;
+    text-transform: uppercase;
+  }
+}
+
+.phase-story {
+  border-left: 1px solid;
+
+  &.discovery {
+    border-color: $discovery-colour;
+  }
+
+  &.alpha {
+    border-color: $alpha-colour;
+  }
+
+  &.beta {
+    border-color: $beta-colour;
+  }
+
+  &.live {
+    border-color: $live-colour;
+  }
+
+  h3 {
+    margin: 0;
+  }
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0.5em 0 0.25em 0.5em;
+  }
+  li {
+    @include core-19;
+    margin-bottom: 0.5em;
   }
 }
 
@@ -252,6 +359,10 @@ $live-colour: $grass-green;
 }
 .media-player {
   @include media-player;
+  figcaption {
+    @include core-19;
+    padding-bottom: 0.25em;
+  }
 }
 
 .exemplar-listing {
@@ -291,7 +402,61 @@ $live-colour: $grass-green;
   }
 }
 
-.organisation {
-  display: block;
-  text-decoration: none;
+.programme {
+  @include core-19;
+  margin: 1em 0 0.5em 0;
+}
+
+.exemplar-statement {
+  border-top: 1px solid $grey-2;
+
+  blockquote {
+    @include core-24;
+    position: relative;
+    margin: 1em 0;
+
+    &:before {
+      content: "“";
+      @include bold-80;
+      font-size: 200px;
+      color: $panel-colour;
+
+      z-index: -1;
+      position: absolute;
+      left: -10px;
+      top: -10px;
+
+      @include media(tablet) {
+        left: -30px;
+        top: -30px;
+      }
+    }
+  }
+
+  cite {
+    font-style: normal;
+  }
+}
+
+.screengrabs {
+  margin-top: 3em;
+}
+.screengrab {
+  @include media(tablet) {
+    float: left;
+    width: 47.5%;
+    margin: 0 0 2em 5%;
+    &:nth-child(odd) {
+      margin-left: 0;
+      clear: left;
+    }
+  }
+  img {
+    width: 100%;
+    border: 1px solid $border-colour;
+  }
+}
+
+.updated {
+  color: $secondary-text-colour;
 }

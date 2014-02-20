@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 
 
-department: "Department for Work & Pensions"
+department: "Department<br>for Work &<br>Pensions"
 permanent-secretary: ""
 digital-leader: ""
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"

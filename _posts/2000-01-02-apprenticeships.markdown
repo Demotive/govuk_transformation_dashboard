@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: ""
 
 
-department: "Department for Business Innovation & Skills"
+department: "Department<br>for Business<br>Innovation & Skills"
 permanent-secretary: "Martin Donnelly"
 digital-leader: "Ceri Smith"
 department-url: "https://www.gov.uk/government/organisations/department-for-business-innovation-skills"

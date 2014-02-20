@@ -11,7 +11,7 @@ exemplar-performance-dashboard-url: ""
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"
 
 
-department: "Department for Transport"
+department: "Department<br>for Transport"
 permanent-secretary: "Philip Rutnam"
 digital-leader: "Brian Etheridge"
 department-url: "https://www.gov.uk/government/organisations/department-for-transport"
