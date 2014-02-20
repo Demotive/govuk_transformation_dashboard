@@ -10,10 +10,6 @@ p {
   @include core-19;
 }
 
-/*h2, h3, h4 {
-  font-weight: 400;
-}*/
-
 h2 {
   @include core-24;
   margin-top: 0.5em;

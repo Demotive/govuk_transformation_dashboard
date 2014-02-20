@@ -42,12 +42,6 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 200k
     caption : Applications a year
-current-volume:
-  - number  : ""
-    caption : ""
-current-cost:
-  - number  : ""
-    caption : ""
 
 
 status: "beta"
@@ -108,11 +102,6 @@ videos:
     caption : "Watch an update on how changes to the beta service since its release, filmed December 2013."
   - url     : "https://www.youtube.com/watch?v=Espjr6YdFh4"
     caption : "Watch a demonstration of the service, filmed July 2013."
-
-
-screengrabs:
-  - filename    : ""
-    caption     : ""
 
 
 ---

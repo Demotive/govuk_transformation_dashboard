@@ -72,12 +72,14 @@ layout: govuk_template
         <h2>Status</h2>
         {{ page.status-strapline | markdownify }}
       </div>
-
-      {% for item in page.videos %}
-        <div class="media-player-wrapper">
-          <a href="{{ item.url }}" class="media-player-link titled">{{ item.caption }}</a>
-        </div>
-      {% endfor %}
+      
+      {% if page.videos %}
+        {% for item in page.videos %}
+          <div class="media-player-wrapper">
+            <a href="{{ item.url }}" class="media-player-link titled">{{ item.caption }}</a>
+          </div>
+        {% endfor %}
+      {% endif %}
 
       <h2>Successes</h2>
       {{ page.successes | markdownify }}
@@ -88,14 +90,16 @@ layout: govuk_template
       <h2>Next</h2>
       {{ page.next-steps | markdownify }}
 
-      <div class="screengrabs group">
-        {% for item in page.screengrabs %}
-          <figure class="screengrab">
-            <img src="/transformation/assets/images/{{ item.filename }}" alt="Screenshot of {{ item.caption }}">
-            <figcaption>{{ item.caption }}</figcaption>
-          </figure>
-        {% endfor %}
-      </div>
+      {% if page.screengrabs %}
+        <div class="screengrabs group">
+          {% for item in page.screengrabs %}
+            <figure class="screengrab">
+              <img src="/transformation/assets/images/{{ item.filename }}" alt="Screenshot of {{ item.caption }}">
+              <figcaption>{{ item.caption }}</figcaption>
+            </figure>
+          {% endfor %}
+        </div>
+      {% endif %}
 
       <div class="exemplar-statement">
         <h2>Digital strategy statement</h2>
@@ -114,47 +118,49 @@ layout: govuk_template
 
     <div class="content-sidebar">
 
-      <h2 class="visuallyhidden">Service status</h2>
+      <div class="phase-stories unit">
 
-      <div class="phase-story discovery">
-        <h3><a href="https://www.gov.uk/service-manual/phases/discovery" class="phase-tag discovery">Discovery</a></h3>
-        <ol>
-          {% for item in page.status-discovery %}
-            <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
-          {% endfor %}
-        </ol>
+        <h2 class="visuallyhidden">Service status</h2>
+
+        <div class="phase-story discovery">
+          <h3><a href="https://www.gov.uk/service-manual/phases/discovery" class="phase-tag discovery">Discovery</a></h3>
+          <ol>
+            {% for item in page.status-discovery %}
+              <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
+            {% endfor %}
+          </ol>
+        </div>
+
+        <div class="phase-story alpha">
+          <h3><a href="https://www.gov.uk/service-manual/phases/alpha" class="phase-tag alpha">Alpha</a></h3>
+          <ol>
+            {% for item in page.status-alpha %}
+              <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
+            {% endfor %}
+          </ol>
+        </div>
+
+        <div class="phase-story beta">
+          <h3><a href="https://www.gov.uk/service-manual/phases/beta" class="phase-tag beta">Beta</a></h3>
+          <ol>
+            {% for item in page.status-beta %}
+              <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
+            {% endfor %}
+          </ol>
+        </div>
+
+        <div class="phase-story live">
+          <h3><a href="https://www.gov.uk/service-manual/phases/live" class="phase-tag live">Live</a></h3>
+          <ol>
+            {% for item in page.status-live %}
+              <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
+            {% endfor %}
+          </ol>
+        </div>
+
       </div>
-
-      <div class="phase-story alpha">
-        <h3><a href="https://www.gov.uk/service-manual/phases/alpha" class="phase-tag alpha">Alpha</a></h3>
-        <ol>
-          {% for item in page.status-alpha %}
-            <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
-          {% endfor %}
-        </ol>
-      </div>
-
-      <div class="phase-story beta">
-        <h3><a href="https://www.gov.uk/service-manual/phases/beta" class="phase-tag beta">Beta</a></h3>
-        <ol>
-          {% for item in page.status-beta %}
-            <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
-          {% endfor %}
-        </ol>
-      </div>
-
-      <div class="phase-story live">
-        <h3><a href="https://www.gov.uk/service-manual/phases/live" class="phase-tag live">Live</a></h3>
-        <ol>
-          {% for item in page.status-live %}
-            <li{% if item.complete == true %} class="complete"{% endif %}>{{ item.copy | markdownify | strip_html }}</li>
-          {% endfor %}
-        </ol>
-      </div>
-
-
-      <div class="volumes-and-costs">
       
+      <div class="unit">
         <h2>Anticipated volume</h2>
         {% for item in page.anticipated-volume %}
           <p>
@@ -162,25 +168,37 @@ layout: govuk_template
             {{ item.caption }}
           </p>
         {% endfor %}
+      </div>
+
+      {% if page.current-volume or page.current-cost %}
 
         <p>Figures from <a href="#">Transactions Explorer</a> for nearest comparable service</p>
 
-        <h2>Current volume</h2>
-        {% for item in page.current-volume %}
-          <p>
-            <span class="lrg-number">{{ item.number }}</span>
-            {{ item.caption }}
-          </p>
-        {% endfor %}
+        <div class="unit">
+          {% if page.current-volume %}
+            <h2>Current volume</h2>
+            {% for item in page.current-volume %}
+              <p>
+                <span class="lrg-number transactions-explorer">{{ item.number }}</span>
+                {{ item.caption }}
+              </p>
+            {% endfor %}
+          {% endif %}
+        </div>
 
-        <h2>Current cost</h2>
-        {% for item in page.current-cost %}
-          <p>
-            <span class="lrg-number">{{ item.number }}</span>
-            {{ item.caption }}
-          </p>
-        {% endfor %}
-      </div>
+        <div class="unit">
+          {% if page.current-cost %}
+            <h2>Current cost</h2>
+            {% for item in page.current-cost %}
+              <p>
+                <span class="lrg-number transactions-explorer">{{ item.number }}</span>
+                {{ item.caption }}
+              </p>
+            {% endfor %}
+          {% endif %}
+        </div>
+
+      {% endif %}
 
 
       <aside>
@@ -188,13 +206,13 @@ layout: govuk_template
         {% if page.exemplar-service-url != '' %}
         <div>
           <h3>Service link</h3>
-          <p><a href="{{ page.exemplar-service-url }}">{{ page.exemplar-service-url }}</a></p>
+          <a href="{{ page.exemplar-service-url }}">{{ page.exemplar-service-url }}</a>
         </div>
         {% endif %}
         {% if page.exemplar-performance-dashboard-url != '' %}
         <div>
           <h3>Service performance</h3>
-          <p><a href="{{ page.exemplar-performance-dashboard-url }}">{{ page.exemplar-performance-dashboard-url }}</a></p>
+          <a href="{{ page.exemplar-performance-dashboard-url }}">{{ page.exemplar-performance-dashboard-url }}</a>
         </div>
         {% endif %}
       </aside>

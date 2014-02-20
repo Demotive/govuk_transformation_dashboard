@@ -97,9 +97,8 @@ $live-colour: $grass-green;
 
 /* --------------------------------------------------------- */
 
-// Base level type
+// Typography bits
 
-// Page headers
 h1 {
     @include bold-48;
 
@@ -111,7 +110,6 @@ h1 {
     }
 }
 
-// Homepage
 .homepage-header {
   h1 {
     @include bold-80;
@@ -129,6 +127,10 @@ h2 {
   margin-top: 0;
 }
 
+h3 {
+  font-weight: 700;
+}
+
 // Basic unordered lists
 ul {
   list-style-type: disc;
@@ -144,6 +146,10 @@ ul {
 .lrg-number {
   @include bold-80;
   display: block;
+
+  &.transactions-explorer {
+    color: $turquoise;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -287,38 +293,41 @@ ul {
   }
 }
 
-.phase-story {
-  border-left: 1px solid;
-
-  &.discovery {
-    border-color: $discovery-colour;
-  }
-
-  &.alpha {
-    border-color: $alpha-colour;
-  }
-
-  &.beta {
-    border-color: $beta-colour;
-  }
-
-  &.live {
-    border-color: $live-colour;
-  }
-
-  h3 {
-    margin: 0;
-  }
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0.5em 0 0.25em 0.5em;
-  }
-  li {
-    @include core-19;
-    margin-bottom: 0.5em;
-  }
+.phase-stories {
+  padding: 0 0 2em 0;
 }
+  .phase-story {
+    border-left: 1px solid;
+
+    &.discovery {
+      border-color: $discovery-colour;
+    }
+
+    &.alpha {
+      border-color: $alpha-colour;
+    }
+
+    &.beta {
+      border-color: $beta-colour;
+    }
+
+    &.live {
+      border-color: $live-colour;
+    }
+
+    h3 {
+      margin: 0;
+    }
+    ol {
+      list-style: none;
+      margin: 0;
+      padding: 0.5em 0 0.25em 0.5em;
+    }
+    li {
+      @include core-19;
+      margin-bottom: 0.5em;
+    }
+  }
 
 .transformation-logo {
   display: block;
@@ -357,13 +366,13 @@ ul {
   padding-top: 1em;
   border-top: 1px solid $border-colour;
 }
-.media-player {
-  @include media-player;
-  figcaption {
-    @include core-19;
-    padding-bottom: 0.25em;
+  .media-player {
+    @include media-player;
+    figcaption {
+      @include core-19;
+      padding-bottom: 0.25em;
+    }
   }
-}
 
 .exemplar-listing {
   border-collapse: collapse;
@@ -441,20 +450,24 @@ ul {
 .screengrabs {
   margin-top: 3em;
 }
-.screengrab {
-  @include media(tablet) {
-    float: left;
-    width: 47.5%;
-    margin: 0 0 2em 5%;
-    &:nth-child(odd) {
-      margin-left: 0;
-      clear: left;
+  .screengrab {
+    @include media(tablet) {
+      float: left;
+      width: 47.5%;
+      margin: 0 0 2em 5%;
+      &:nth-child(odd) {
+        margin-left: 0;
+        clear: left;
+      }
+    }
+    img {
+      width: 100%;
+      border: 1px solid $border-colour;
     }
   }
-  img {
-    width: 100%;
-    border: 1px solid $border-colour;
-  }
+
+.unit {
+    border-bottom: 1px solid $border-colour;
 }
 
 .updated {
