@@ -124,48 +124,52 @@ live_url: 'https://www.gov.uk/service-manual/phases/live'
       <tbody>
         {% for post in site.posts reversed %}
 
-        <tr>
-          <td class="exemplar-number">{{ post.exemplar-number }}</td>
-          <td class="description">
-            <h3>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.exemplar-title }}</a>
-              <span class="phase-tag {{ post.status }}">{{ post.status }}</span>
-            </h3>
-            {{ post.homepage-intro | markdownify }}
-          </td>
-          <td class="volume">
-            {% for item in post.anticipated-volume %}
-                {% if forloop.first %}
-                    <span class="volume-number">{{ item.number }}</span>
-                    <span class="volume-caption">{{ item.caption }}</span>
-                {% endif %}
-            {% endfor %}
-          </td>
-          <td class="department">
-            {% assign dept_css_class = '' %}
-            {% case post.department %}
-                {% when 'Cabinet Office' %}
-                  {% capture dept_css_class %}co{% endcapture %}
-                {% when 'Department<br>for Business<br>Innovation & Skills' %}
-                  {% capture dept_css_class %}bis{% endcapture %}
-                {% when 'Department<br>for Environment<br>Food & Rural Affairs' %}
-                  {% capture dept_css_class %}defra{% endcapture %}
-                {% when 'Department<br>for Transport' %}
-                  {% capture dept_css_class %}dft{% endcapture %}
-                {% when 'Department<br>for Work &<br>Pensions' %}
-                  {% capture dept_css_class %}dwp{% endcapture %}
-                {% when 'HM Revenue<br>& Customs' %}
-                  {% capture dept_css_class %}hmrc{% endcapture %}
-                {% when 'Home Office' %}
-                  {% capture dept_css_class %}ho{% endcapture %}
-                {% when 'Ministry<br>of Justice' %}
-                  {% capture dept_css_class %}moj{% endcapture %}
-            {% endcase %}
-            <a href="{{ post.department-url }}" class="organisation-logo {{ dept_css_class }}">
-              <span>{{ post.department }}</span>
-            </a>
-          </td>
-        </tr>
+          {% if post.legacy-exemplar != true %}
+
+          <tr>
+            <td class="exemplar-number">{{ post.exemplar-number }}</td>
+            <td class="description">
+              <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.exemplar-title }}</a>
+                <span class="phase-tag {{ post.status }}">{{ post.status }}</span>
+              </h3>
+              {{ post.homepage-intro | markdownify }}
+            </td>
+            <td class="volume">
+              {% for item in post.anticipated-volume %}
+                  {% if forloop.first %}
+                      <span class="volume-number">{{ item.number }}</span>
+                      <span class="volume-caption">{{ item.caption }}</span>
+                  {% endif %}
+              {% endfor %}
+            </td>
+            <td class="department">
+              {% assign dept_css_class = '' %}
+              {% case post.department %}
+                  {% when 'Cabinet Office' %}
+                    {% capture dept_css_class %}co{% endcapture %}
+                  {% when 'Department<br>for Business<br>Innovation & Skills' %}
+                    {% capture dept_css_class %}bis{% endcapture %}
+                  {% when 'Department<br>for Environment<br>Food & Rural Affairs' %}
+                    {% capture dept_css_class %}defra{% endcapture %}
+                  {% when 'Department<br>for Transport' %}
+                    {% capture dept_css_class %}dft{% endcapture %}
+                  {% when 'Department<br>for Work &<br>Pensions' %}
+                    {% capture dept_css_class %}dwp{% endcapture %}
+                  {% when 'HM Revenue<br>& Customs' %}
+                    {% capture dept_css_class %}hmrc{% endcapture %}
+                  {% when 'Home Office' %}
+                    {% capture dept_css_class %}ho{% endcapture %}
+                  {% when 'Ministry<br>of Justice' %}
+                    {% capture dept_css_class %}moj{% endcapture %}
+              {% endcase %}
+              <a href="{{ post.department-url }}" class="organisation-logo {{ dept_css_class }}">
+                <span>{{ post.department }}</span>
+              </a>
+            </td>
+          </tr>
+          {% endif %}
+
         {% endfor %}
       </tbody>
     </table>

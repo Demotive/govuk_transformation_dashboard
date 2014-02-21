@@ -6,8 +6,8 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Student finance"
 exemplar-number: 6
-exemplar-service-url: "www.gov.uk/apply-online-for-student-finance"
-exemplar-blog-url: "www.studentfinancedigital.blog.gov.uk"
+exemplar-service-url: "https://www.gov.uk/apply-online-for-student-finance"
+exemplar-blog-url: "https://studentfinancedigital.blog.gov.uk"
 
 
 department: "Department<br>for Business<br>Innovation & Skills"

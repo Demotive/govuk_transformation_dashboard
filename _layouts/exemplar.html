@@ -81,17 +81,17 @@ layout: govuk_template
         {% endfor %}
       {% endif %}
 
-      {% if page.successes %}
+      {% if page.successes and page.successes != '' %}
         <h2>Successes</h2>
         {{ page.successes | markdownify }}
       {% endif %}
 
-      {% if page.challenges %}
+      {% if page.challenges and page.challenges != '' %}
         <h2>Challenges</h2>
         {{ page.challenges | markdownify }}
       {% endif %}
 
-      {% if page.next-steps %}
+      {% if page.next-steps and page.next-steps != '' %}
         <h2>Next</h2>
         {{ page.next-steps | markdownify }}
       {% endif %}
@@ -107,6 +107,7 @@ layout: govuk_template
         </div>
       {% endif %}
 
+      {% if page.digital-strategy-statement and page.digital-strategy-statement != '' %}
       <div class="exemplar-statement">
         <h2>Digital strategy statement</h2>
         <blockquote>
@@ -116,6 +117,7 @@ layout: govuk_template
           </footer>
         </blockquote>
       </div>
+      {% endif %}
 
       <h2>Scope of exemplar</h2>
       {{ page.scope-of-exemplar | markdownify }}
@@ -198,13 +200,15 @@ layout: govuk_template
         {% endif %}
 
         {% if page.current-cost %}
-          <h2>Current cost</h2>
-          {% for item in page.current-cost %}
-            <p>
-              <span class="lrg-number transactions-explorer">{{ item.number }}</span>
-              {{ item.caption }}
-            </p>
-          {% endfor %}
+          <div class="unit">
+            <h2>Current cost</h2>
+            {% for item in page.current-cost %}
+              <p>
+                <span class="lrg-number transactions-explorer">{{ item.number }}</span>
+                {{ item.caption }}
+              </p>
+            {% endfor %}
+          </div>
         {% endif %}
 
       {% endif %}

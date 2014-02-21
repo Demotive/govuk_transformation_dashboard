@@ -2,11 +2,9 @@
 
 layout: exemplar
 
-legacy-exemplar: true
-
 last-updated: "28 January, 2014"
 
-exemplar-title: "Criminal record check"
+exemplar-title: "Passports"
 exemplar-number: 20
 
 
@@ -14,11 +12,11 @@ department: "Home Office"
 permanent-secretary: "Mark Sedwill"
 digital-leader: "Mike Parsons"
 department-url: "https://www.gov.uk/government/organisations/home-office"
-programme: "Disclosure and barring service"
+programme: "Passports"
 
 
 homepage-intro: |
-    If you need to get a criminal record check you will be able to do this simply and quickly online
+    Passports
 
 detail-page-intro: |
     3.9 million enhanced checks made online each year
@@ -61,8 +59,8 @@ status-strapline: |
     Once an alternative exemplar has been confirmed an update will be published on the [Digital Transformation](https://www.gov.uk/transformation) pages.
 
 status-discovery:
-  - copy      : "Completed --- Jul 2013"
-    complete  : true
+  - copy      : "To be determined"
+    complete  : false
 
 status-alpha:
   - copy      : "To be determined"

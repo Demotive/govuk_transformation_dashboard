@@ -15,7 +15,7 @@ department: "Ministry<br>of Justice"
 permanent-secretary: "Ursula Brennan"
 digital-leader: "Matthew Coats"
 department-url: "https://www.gov.uk/government/organisations/ministry-of-justice"
-programme: "Office for the Public Guardian"
+programme: "Office of the Public Guardian"
 
 
 homepage-intro: |
