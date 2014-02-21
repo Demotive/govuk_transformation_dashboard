@@ -39,6 +39,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 105k
     caption : Transactions a year
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/defra-single-payment-scheme-sps-claims
 current-volume:
   - number  : 105k
     caption : Transactions per year

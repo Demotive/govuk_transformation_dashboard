@@ -81,14 +81,20 @@ layout: govuk_template
         {% endfor %}
       {% endif %}
 
-      <h2>Successes</h2>
-      {{ page.successes | markdownify }}
+      {% if page.successes %}
+        <h2>Successes</h2>
+        {{ page.successes | markdownify }}
+      {% endif %}
 
-      <h2>Challenges</h2>
-      {{ page.challenges | markdownify }}
+      {% if page.challenges %}
+        <h2>Challenges</h2>
+        {{ page.challenges | markdownify }}
+      {% endif %}
 
-      <h2>Next</h2>
-      {{ page.next-steps | markdownify }}
+      {% if page.next-steps %}
+        <h2>Next</h2>
+        {{ page.next-steps | markdownify }}
+      {% endif %}
 
       {% if page.screengrabs %}
         <div class="screengrabs group">
@@ -172,7 +178,11 @@ layout: govuk_template
 
       {% if page.current-volume or page.current-cost %}
 
-        <p>Figures from <a href="#">Transactions Explorer</a> for nearest comparable service</p>
+        {% assign transactions_explorer_url = 'https://www.gov.uk/performance/transactions-explorer' %}
+        {% if page.transactions-explorer-url %}
+          {% capture transactions_explorer_url %}{{ page.transactions-explorer-url }}{% endcapture %}
+        {% endif %}
+        <p>Figures from <a href="{{ transactions_explorer_url }}">Transactions Explorer</a> for nearest comparable service</p>
 
         
         {% if page.current-volume %}

@@ -39,6 +39,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 3.2m
     caption : carers in the UK
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/dwp-carers-allowance-new-claims
 current-volume:
   - number  : 240k
     caption : Transactions per year

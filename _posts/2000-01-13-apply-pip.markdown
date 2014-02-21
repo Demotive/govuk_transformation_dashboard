@@ -6,7 +6,7 @@ last-updated: "28 January, 2014"
 
 exemplar-title: "Claim Personal Independence Payment (PIP)"
 exemplar-number: 13
-exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
+exemplar-blog-url: "http://www.dwpdigital.blog.gov.uk"
 
 
 department: "Department<br>for Work &<br>Pensions"
@@ -67,16 +67,6 @@ successes: |
   
 challenges: |
   - A final plan for a new digital service at the Department for Work and Pensions is still to be agreed
-  
-next-steps: |
- 
-  
-
-videos:
-  - url     : ""
-    caption : ""
-
-
 
 
 ---

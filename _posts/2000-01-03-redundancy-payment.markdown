@@ -75,12 +75,6 @@ next-steps: |
   - Develop an operating model for the live service
   - Continue to make improvements to the service based on user feedback 
   - Develop a digital strategy 
-  
-
-videos:
-  - url   : ""
-    caption : ""
-
 
 
 ---

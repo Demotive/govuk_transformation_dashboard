@@ -38,6 +38,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 1.85m
     caption : Claims a year
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/moj-money-claims
 current-volume:
   - number  : "1.4m"
     caption : "Transactions per year"

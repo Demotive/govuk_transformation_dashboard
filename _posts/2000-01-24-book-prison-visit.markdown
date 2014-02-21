@@ -38,6 +38,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 1.5m
     caption : Visits per year
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/moj-prison-visit-booking
 current-volume:
   - number  : "1.5m"
     caption : "Transactions per year"

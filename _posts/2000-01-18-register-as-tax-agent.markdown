@@ -73,13 +73,6 @@ challenges: |
   
 next-steps: |
   - Complete joint discovery phase with identity assurance ‘organisations and authority management service’
-  
-
-videos:
-  - url     : ""
-    caption : ""
-
-
 
 
 ---

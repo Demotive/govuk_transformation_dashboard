@@ -36,6 +36,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 3.9m
     caption : Enhanced checks
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/home-office-enhanced-criminal-records-checks
 current-volume:
   - number  : "3.86m"
     caption : "Transactions per year"
@@ -76,20 +78,6 @@ status-live:
 successes: |
   - Discovery completed
   - Service manager appointed
-  
-challenges: |
-  
-  
-next-steps: |
-  
-  
-
-videos:
-  - url     : ""
-    caption : ""
-
-
-
 
 ---
 

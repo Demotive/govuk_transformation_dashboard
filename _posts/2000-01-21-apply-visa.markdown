@@ -35,6 +35,8 @@ scope-of-exemplar: |
 anticipated-volume:
   - number  : 3.4m
     caption : Visas issued a year
+
+transactions-explorer-url: https://www.gov.uk/performance/transactions-explorer/service-details/moj-money-claims
 current-volume:
   - number  : "3.44m"
     caption : "Transactions per year"
