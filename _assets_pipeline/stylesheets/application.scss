@@ -35,17 +35,21 @@ $live-colour: $grass-green;
 .content-body {
   @include box-sizing(border-box);
 
-  width: $two-thirds;
-  float: left;
-  padding-right: 60px;
+  @include media(desktop) {
+    width: $two-thirds;
+    float: left;
+    padding-right: 60px;
+  }
 }
 
 .content-sidebar {
   @include box-sizing(border-box);
 
-  width: $one-third;
-  float: right;
-  padding-left: 20px;
+  @include media(desktop) {
+    width: $one-third;
+    float: right;
+    padding-left: 20px;
+  }
 }
 
 /* --------------------------------------------------------- */
@@ -161,6 +165,15 @@ ul {
   margin: 1.5em 0;
   p {
     @include core-24;
+  }
+
+  .organisation-logo {
+    @include media(tablet) {
+      float: right;
+    }
+    @include media(desktop) {
+      float: none;
+    }
   }
 }
 
@@ -298,7 +311,14 @@ ul {
 }
 
 .phase-stories {
-  padding: 0 0 2em 0;
+  margin: 2em 0 0 0;
+  padding: 2em 0;
+  border-top: 1px solid $border-colour;
+  @include media(desktop) {
+    margin: 0;
+    padding-top: 0;
+    border-top: none;
+  }
 }
   .phase-story {
     border-left: 1px solid;
@@ -445,11 +465,12 @@ ul {
   }
   
   .description {
-    margin-left: 8%;
+    margin-left: 10%;
 
     @include media(tablet) {
       float: left;
-      width: 52%;
+      margin-left: 5%;
+      width: 55%;
     }
 
     @include media(desktop) {
@@ -457,12 +478,13 @@ ul {
     }
   }
   .volume {
-    margin-left: 8%;
+    margin-left: 10%;
     padding-bottom: 1em;
 
     @include media(tablet) {
       float: left;
-      width: 52%;
+      margin-left: 5%;
+      width: 55%;
     }
 
     @include media(desktop) {
@@ -471,7 +493,7 @@ ul {
     }
   }
   .department {
-    margin-left: 8%;
+    margin-left: 10%;
     padding-bottom: 1em;
 
     @include media(tablet) {
