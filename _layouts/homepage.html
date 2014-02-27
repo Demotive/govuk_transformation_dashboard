@@ -14,6 +14,7 @@ live_url: 'https://www.gov.uk/service-manual/phases/live'
 {% assign live_count = '' %}
 
 {% for post in site.posts %}
+  {% if post.legacy-exemplar != true %}
     {% case post.status %}
         {% when 'discovery' %}
             {% capture discovery_count %}{{ discovery_count | append:'.' }}{% endcapture %}
@@ -24,6 +25,7 @@ live_url: 'https://www.gov.uk/service-manual/phases/live'
         {% when 'live' %}
             {% capture live_count %}{{ live_count | append:'.' }}{% endcapture %}
     {% endcase %}
+  {% endif %}
 {% endfor %}
 
 <nav role="navigation" class="breadcrumbs">

@@ -2,12 +2,12 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Employment tribunal fee payment"
 exemplar-number: 23
 exemplar-service-url: "https://www.gov.uk/apply-employment-tribunal"
-exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
+exemplar-blog-url: "https://mojdigital.blog.gov.uk/"
 
 
 department: "Ministry<br>of Justice"
@@ -56,7 +56,7 @@ status-beta:
   - copy      : "Completed: Public Beta --- Jul 2013"
     complete  : true
   - copy      : "Discovery work into scope of beta phase --- Jan 2014"
-    complete  : false
+    complete  : true
   - copy      : "Ongoing testing and development to public beta service --- Feb 2014"
     complete  : false
 

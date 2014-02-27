@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Your tax account"
 exemplar-number: 17
@@ -39,7 +39,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "Preparing for private beta release in February 2014. This service is being built alongside [Exemplar 15: PAYE for employees](/transformation/paye) and [Exemplar 16: Digital self-assessent](/transformation/self-assessment)."
+status-strapline: "In private beta. This service is being built alongside [exemplar 15: PAYE for employees](/transformation/paye) and [exemplar 16: Digital self-assessent](/transformation/self-assessment)."
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
@@ -51,9 +51,9 @@ status-alpha:
 
 status-beta:
   - copy      : "Development of private beta --- Jun 2013 to Jan 2014"
-    complete  : false
+    complete  : true
   - copy      : "Private beta --- Feb 2014"
-    complete  : false
+    complete  : true
 
 status-live:
   - copy      : "Target: service will go live --- Apr 2015"
@@ -61,7 +61,7 @@ status-live:
 
 
 successes: |
-  - All features for the private beta are ready
+  - Private beta released in February 2014
   - Workspace and broadband problems resolved
   
 challenges: |

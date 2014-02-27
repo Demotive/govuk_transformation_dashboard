@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Civil claims"
 exemplar-number: 22
@@ -65,9 +65,7 @@ status-alpha:
 
 status-beta:
   - copy      : "Beta development started --- Nov 2013"
-    complete  : false
-  - copy      : "User research continues --- Dec 2013"
-    complete  : false
+    complete  : true
 
 status-live:
   - copy      : "To be determined"

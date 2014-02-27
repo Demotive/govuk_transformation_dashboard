@@ -2,15 +2,13 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Universal Credit"
 exemplar-number: 14
 
 
 department: "Department<br>for Work &<br>Pensions"
-permanent-secretary: ""
-digital-leader: ""
 department-url: "https://www.gov.uk/government/organisations/department-for-work-pensions"
 
 
@@ -26,9 +24,6 @@ digital-strategy-statement: |
     
 digital-strategy-source: |
     From the '[Department for Work & Pensions digital strategy](https://www.gov.uk/government/publications/dwp-digital-strategy)' – December 2012
-    
-
-scope-of-exemplar: |
     
 
 

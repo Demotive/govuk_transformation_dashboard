@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Patent renewals"
 exemplar-number: 4
@@ -39,7 +39,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "In private beta."
+status-strapline: "In private beta"
 
 status-discovery:
   - copy        : "Completed --- Jul 2013"

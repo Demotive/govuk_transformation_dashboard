@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Apprenticeship applications"
 exemplar-number: 2
@@ -24,7 +24,7 @@ detail-page-intro: |
 
 digital-strategy-statement: |
     All customer journeys across information and transactions will be integrated so individuals can find information tailored to their needs and search, view and apply for opportunities online in an engaging and inspiring way. Employers will be able to quickly and easily self-serve to engage with apprenticeships and advertise vacancies and identify suitable candidates.
-    
+
 digital-strategy-source: |
     From the '[Department for Business Innovation & Skills digital strategy](http://discuss.bis.gov.uk/digitalstrategy/page/7/)' --- December 2012
     
@@ -38,8 +38,8 @@ anticipated-volume:
     caption : Applications a year
 
 
-status: "discovery"
-status-strapline: "Alpha to begin February 2014"
+status: "alpha"
+status-strapline: "In alpha"
 
 status-discovery:
   - copy        : "Completed --- Oct 2013"
@@ -47,7 +47,7 @@ status-discovery:
 
 status-alpha:
   - copy        : "Supplier selection for alpha phase --- Dec 2013"
-    complete    : false
+    complete    : true
   - copy        : "Alpha --- Feb to Apr 2014"
     complete    : false
 
@@ -64,8 +64,7 @@ status-live:
 
 successes: |
   - Good communication between GDS and the Skills Funding Agency
-  - Technology partner selected to build an alpha prototype
-  
+  - Technology partner on site
   
 challenges: |
   - Review of the Skills Funding Agency may have knock-on effects on the service
@@ -73,7 +72,7 @@ challenges: |
   
 next-steps: |
   - Develop digital capability within the National Apprenticeship Service and the Skills Funding Agency
-  - Start the alpha inception and development phase
+  - Finish alpha development and user research 
   
 
 videos:

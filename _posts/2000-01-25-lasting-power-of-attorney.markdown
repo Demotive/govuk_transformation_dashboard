@@ -2,13 +2,13 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Lasting power of attorney"
 exemplar-number: 25
 exemplar-service-url: "https://www.gov.uk/lasting-power-of-attorney"
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/lasting-power-of-attorney"
-exemplar-blog-url: "www.blogs.justice.gov.uk/digital"
+exemplar-blog-url: "https://mojdigital.blog.gov.uk/"
 
 
 department: "Ministry<br>of Justice"
@@ -47,10 +47,6 @@ anticipated-volume:
 status: "beta"
 status-strapline: "In public beta and on track."
 
-status-discovery:
-  - copy      : "Completed --- Feb 2013"
-    complete  : true
-
 status-alpha:
   - copy      : "Completed --- Feb to Apr 2012"
     complete  : true
@@ -60,13 +56,13 @@ status-beta:
     complete  : true
   - copy      : "Public beta --- Jul 2013"
     complete  : true
-  - copy      : "Service migrates to production infrastructure --- Feb 2014"
+  - copy      : "Service migrates to production infrastructure --- May 2014"
     complete  : false
 
 status-live:
-  - copy      : "Target: Service will go live --- Mar 2014"
+  - copy      : "Target: Service will go live --- Jun 2014"
     complete  : false
-  - copy      : "Target: New back end system will go live --- Apr 2014"
+  - copy      : "Target: New back end system will go live --- Jun 2014"
     complete  : false
   - copy      : "Work on development of deputyships service --- Apr to Jun 2014"
     complete  : false

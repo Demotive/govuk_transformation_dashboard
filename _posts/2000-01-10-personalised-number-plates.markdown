@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Personalised registrations"
 exemplar-number: 10
@@ -40,18 +40,18 @@ anticipated-volume:
 
 
 status: "alpha"
-status-strapline: "In early alpha. The core service is being planned and designed. It will be developed along with [Exemplar number 11: Vehicle management](/transformation/manage-vehicle)."
+status-strapline: "Alpha development will begin in April 2014"
 
 status-discovery:
   - copy      : "Completed --- Oct 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Alpha development phase, following completion of Vehicle Management alpha --- April 2014 to June 2014"
+  - copy      : "Alpha will begin in Apr 2014"
     complete  : false
 
 status-beta:
-  - copy      : "Beta dates dependent on completion of Alpha"
+  - copy      : "Beta will begin in Jul 2014"
     complete  : false
 
 status-live:
@@ -61,15 +61,17 @@ status-live:
 
 successes: |
   - Discovery phase complete
-  - User and business needs established
+  - User and business needs being developed
   - Potential security issues identified
   
 challenges: |
-  - Taking a complex set of paper transactions to create a simple digital service 
-  - Migrating data to secure cloud environments 
+  - Turning complicated transactions into simple digital services
+  - Integrating with current systems and migrating data to a secure cloud environment
   
 next-steps: |
-  - Build the initial core service
+  - Alpha build of prototype
+  - Integrate existing systems
+  - Complete user analysis
   
 
 videos:

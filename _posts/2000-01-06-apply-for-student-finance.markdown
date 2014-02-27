@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Student finance"
 exemplar-number: 6
@@ -22,13 +22,6 @@ homepage-intro: |
 
 detail-page-intro: |
     Supporting 1.3 million people using student finance services
-
-
-digital-strategy-statement: |
-    
-    
-digital-strategy-source: |
-    
     
 
 scope-of-exemplar: |

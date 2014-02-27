@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Digital self-assessment"
 exemplar-number: 16
@@ -39,7 +39,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "Preparing for private beta release in February 2014. This service is being built alongside [Exemplar 15: PAYE for employees](/transformation/paye) and [Exemplar 17: Your tax account](/transformation/business-tax-account)."
+status-strapline: "In private beta. This service is being built alongside [exemplar 15: PAYE for employees](/transformation/paye) and [exemplar 17: Your tax account](/transformation/business-tax-account)."
 
 status-discovery:
   - copy      : "Completed --- Feb 2013"
@@ -51,10 +51,10 @@ status-alpha:
 
 status-beta:
   - copy      : "Development of private beta --- Jun 2013 to Jan 2014"
-    complete  : false
-  - copy      : "Private beta --- Feb 2014"
-    complete  : false
-  - copy      : "Public beta --- Apr 2014"
+    complete  : true
+  - copy      : "Private beta release --- Feb 2014"
+    complete  : true
+  - copy      : "Public beta release --- Apr 2014"
     complete  : false
   - copy      : "Continuous project delivery and wider departmental transformational work to take place and live service delivery dates to be determine as part of this"
     complete  : false

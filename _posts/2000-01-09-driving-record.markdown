@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "View driving record"
 exemplar-number: 9
@@ -44,7 +44,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "Private beta development and testing underway."
+status-strapline: "Development and testing underway for public beta launch end of March 2014"
 
 status-discovery:
   - copy        : "Completed --- Jul 2012"
@@ -55,32 +55,30 @@ status-alpha:
     complete    : true
 
 status-beta:
-  - copy    : "Testing and development of beta product --- Dec 2013"
-    complete  : false
-  - copy    : "Target: public beta --- Mar 2014"
-    complete  : false
+  - copy        : "Testing and development of beta product --- Feb 2014"
+    complete    : true
+  - copy        : "Target: public beta --- Mar 2014"
+    complete    : false
 
 status-live:
-  - copy    : "The service will go live, but dependent on the release date of the public beta --- Jun 14"
-    complete  : false
-  - copy    : "Live running of service and dept transformational work to continue"
-    complete  : false
+  - copy        : "The service is anticipated to go live in June 2014 depending on feedback from beta and subsequent development work"
+    complete    : false
+  - copy        : "Development of live service and dept transformational work to continue"
+    complete    : false
 
 
 successes: |
-  - Core service built
-  - Phase 2 discovery stage completed
+  - Alpha stage completed
   - Service has been assessed using the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default)
+  - Secure, cloud based pre-production and development environments built
+  - Initial data transfers for testing completed
   
 challenges: |
-  - Business case to be made for continued development after the service is live
-  - Integrating with the Department for Work and Pensions’ systems for national insurance data
-  - Integrating with identity assurance beta 
-  - Building a secure cloud production environment for the safe running of the service
+  - Gathering citizen and trade user feedback to develop and improve the service during public beta
   
 next-steps: |
   - Begin public beta phase
-  - Develop identity assurance features
+  - Develop and integrate full identity assurance features
   
 
 videos:

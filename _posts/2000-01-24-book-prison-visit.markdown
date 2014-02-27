@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Prison visit booking"
 exemplar-number: 24
@@ -62,9 +62,7 @@ status-discovery:
 status-alpha:
   - copy      : "Alpha phase starts --- Oct 2013"
     complete  : true
-  - copy      : "User testing of alpha product with prisons --- Dec 2013 to Jan 2014"
-    complete  : false
-  - copy      : "API deployment with early adopters of service --- Apr 2014"
+  - copy      : "User testing of alpha product with 4 prisons --- Dec 2013 to Feb 2014"
     complete  : false
 
 status-beta:

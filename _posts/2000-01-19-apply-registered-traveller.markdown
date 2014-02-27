@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Registered traveller"
 exemplar-number: 19
@@ -34,7 +34,7 @@ scope-of-exemplar: |
 
 anticipated-volume:
   - number  : 400k
-    caption : <small>From April 2014, up to 400,000 travellers who visit the UK several times per year will be able to access the scheme.</small>
+    caption : <small>From August 2014, up to 400,000 travellers who visit the UK several times per year will be able to access the scheme.</small>
 
 
 status: "beta"
@@ -51,9 +51,9 @@ status-alpha:
 status-beta:
   - copy      : "Beta development started --- Dec 2013"
     complete  : true
-  - copy      : "Private beta --- March 2014"
+  - copy      : "Private beta --- Mar 2014"
     complete  : false
-  - copy      : "Public beta --- July 2014"
+  - copy      : "Public beta --- Jul 2014"
     complete  : false
 
 status-live:

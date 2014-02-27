@@ -14,15 +14,16 @@ intro: |
     [You can read more about the transformation programme on our blog.](https://digitaltransformation.blog.gov.uk/)
 
 this-month: |
-    - [Student Loans](/transformation/apply-for-student-finance) launched the full-time higher education loan and grant application for 2014/15
-    - Environment Agency released the [waste carrier registration](/transformation/redundancy-payment) public beta service
-    - [Redundancy payments](/transformation/redundancy-payment) exemplar moved from alpha to beta development
+    - HMRC launched a private beta of a new tax platform for exemplars [15](/transformation/paye), [16](/transformation/self-assessment) and [17](business-tax-account) with around 2,000 invited users
+    - The beta build has started on [Redundancy payments](/transformation/redundancy-payments)
+    - [Apprenticeship applications](/transformation/apprenticeships) exemplar moved into alpha
+    - Over 80,000 applications have been made on the [Student finance](/transformation/apply-for-student-finance) service for full-time loan and grant applications since it went into public beta a month ago
+    - DVLA released a private beta for [View driving record](/transformation/driving-record)
 
 next-month: |
-    - [Apprenticeship applications](/transformation/apprenticeships) exemplar will move into alpha phase
-    - Home Office will release the private beta service for the [visit visa applications](/transformation/apply-visa) exemplar service
-    - HMRC will release the private beta service for the [paye for employees](/transformation/paye), [digital self-assessment](/transformation/self-assessment) and [your tax account](/transformation/business-tax-account)
-    - [Patent renewals](/transformation/renew-patent) exemplar will move into public beta
+    - The [Visas](/transformation/visas) exemplar will move to private beta
+    - [Patent renewals](/transformation/renew-patent) will move to public beta
+    - The [Passports](/transformation/passports) exemplar, which replaces Criminal record checks, will complete discovery
 
 videos:
     -

@@ -2,12 +2,12 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Claim Carer's Allowance"
 exemplar-number: 12
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/carers-allowance"
-exemplar-blog-url: "www.dwpdigital.blog.gov.uk"
+exemplar-blog-url: "https://dwpdigital.blog.gov.uk/"
 
 
 department: "Department<br>for Work &<br>Pensions"
@@ -69,8 +69,6 @@ status-beta:
     complete  : true
   - copy      : "Completed: public beta released --- Oct 2013"
     complete  : true
-  - copy      : "Testing and development to the public beta service continues"
-    complete  : false
   - copy      : "Welsh language content translation --- Jan to Feb 2014"
     complete  : false
   - copy      : "Work on ‘assisted digital’ --- Feb 2014"

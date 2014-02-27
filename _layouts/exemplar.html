@@ -46,7 +46,9 @@ layout: govuk_template
         <span>{{ page.department }}</span>
       </a>
 
-      <div class="programme">{{ page.programme }}</div>
+      {% if page.programme %}
+        <div class="programme">{{ page.programme }}</div>
+      {% endif %}
 
       {% if page.permanent-secretary %}
         <div class="person">
@@ -119,8 +121,10 @@ layout: govuk_template
       </div>
       {% endif %}
 
+      {% if page.scope-of-exemplar and page.scope-of-exemplar != '' %}
       <h2>Scope of exemplar</h2>
       {{ page.scope-of-exemplar | markdownify }}
+      {% endif %}
 
     </div>
 
@@ -130,6 +134,7 @@ layout: govuk_template
 
         <h2 class="visuallyhidden">Service status</h2>
 
+        {% if page.status-discovery %}
         <div class="phase-story discovery">
           <h3><a href="https://www.gov.uk/service-manual/phases/discovery" class="phase-tag discovery">Discovery</a></h3>
           <ol>
@@ -138,7 +143,9 @@ layout: govuk_template
             {% endfor %}
           </ol>
         </div>
+        {% endif %}
 
+        {% if page.status-alpha %}
         <div class="phase-story alpha">
           <h3><a href="https://www.gov.uk/service-manual/phases/alpha" class="phase-tag alpha">Alpha</a></h3>
           <ol>
@@ -147,7 +154,9 @@ layout: govuk_template
             {% endfor %}
           </ol>
         </div>
+        {% endif %}
 
+        {% if page.status-beta %}
         <div class="phase-story beta">
           <h3><a href="https://www.gov.uk/service-manual/phases/beta" class="phase-tag beta">Beta</a></h3>
           <ol>
@@ -156,7 +165,9 @@ layout: govuk_template
             {% endfor %}
           </ol>
         </div>
+        {% endif %}
 
+        {% if page.status-live %}
         <div class="phase-story live">
           <h3><a href="https://www.gov.uk/service-manual/phases/live" class="phase-tag live">Live</a></h3>
           <ol>
@@ -165,9 +176,11 @@ layout: govuk_template
             {% endfor %}
           </ol>
         </div>
+        {% endif %}
 
       </div>
       
+      {% if page.anticipated-volume %}
       <div class="unit">
         <h2>Anticipated volume</h2>
         {% for item in page.anticipated-volume %}
@@ -177,6 +190,7 @@ layout: govuk_template
           </p>
         {% endfor %}
       </div>
+      {% endif %}
 
       {% if page.current-volume or page.current-cost %}
 

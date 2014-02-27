@@ -2,11 +2,11 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Vehicle management"
 exemplar-number: 11
-exemplar-blog-url: "www.dvladigital.blog.gov.uk"
+exemplar-blog-url: "https://dvladigital.blog.gov.uk/"
 
 
 department: "Department<br>for Transport"
@@ -40,7 +40,7 @@ anticipated-volume:
 
 
 status: "alpha"
-status-strapline: "In early alpha. The core service is being planned and designed. It will be developed along with [Exemplar number 10: Personalised registrations](/transformation/personalised-number-plates)."
+status-strapline: "Alpha development underway. The core service is being planned and designed, along with [exemplar number 10: Personalised registrations](/transformation/personalised-number-plates)."
 
 status-discovery:
   - copy      : "Completed --- Oct 2013"
@@ -51,7 +51,7 @@ status-alpha:
     complete  : false
 
 status-beta:
-  - copy      : "Beta dates dependent on completion of Alpha"
+  - copy      : "Beta development --- Mar to Oct 2014"
     complete  : false
 
 status-live:
@@ -63,14 +63,14 @@ successes: |
   - Discovery phase complete
   - User and business needs established
   - Potential security issues identified
-  - Completed planning and design for alpha 
+  - Prototypes developed
   
 challenges: |
-  - Many different stakeholders with different needs
-  - Migrating data to secure cloud environments 
+  - Turning complicated transactions into simple digital services
+  - Integrating with current systems and migrating data to secure cloud environment
   
 next-steps: |
-  - Build the initial core service
+  - Alpha service assessment March 2014, commence Beta in April
   
 
 videos:

@@ -2,9 +2,9 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
-exemplar-title: "Visit visa applications"
+exemplar-title: "Visas"
 exemplar-number: 21
 
 
@@ -61,15 +61,15 @@ status-alpha:
     complete  : true
 
 status-beta:
-  - copy      : "Private beta development --- Sep 2013 to Jan 2014"
+  - copy      : "Completed private beta development --- Sep 2013 to Jan 2014"
+    complete  : true
+  - copy      : "Private beta release --- Feb 2014"
     complete  : false
-  - copy      : "Private beta service --- Feb 2014"
-    complete  : false
-  - copy      : "Public beta --- May 2014"
+  - copy      : "Public beta release --- May 2014"
     complete  : false
 
 status-live:
-  - copy      : "Target: the service will go live --- Mar 2015"
+  - copy      : "Target: service will go live --- Mar 2015"
     complete  : false
 
 
@@ -78,7 +78,7 @@ successes: |
   - Extensive [user research](http://digital.cabinetoffice.gov.uk/2013/10/09/testing-with-users-around-the-world/) with embassies around the world
   
 challenges: |
-  - Established approaches to technology and management don’t work well with [agile](https://www.gov.uk/service-manual/agile) development
+  - Adapting current methods to [agile](https://www.gov.uk/service-manual/agile) development
   
 next-steps: |
   - Change the application form so other essential information can be submitted

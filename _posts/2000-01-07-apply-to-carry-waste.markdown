@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Waste carrier registration"
 exemplar-number: 7
@@ -59,13 +59,11 @@ status-beta:
     complete  : true
   - copy    : "Phase 2 private beta --- Apr 2014"
     complete  : false
-  - copy    : "Phase 2 public beta --- May 2014"
+  - copy    : "Phase 2 public beta --- July 2014"
     complete  : false
 
 status-live:
-  - copy    : "Phase 1 live --- Jan 2014"
-    complete  : false
-  - copy    : "Phase 2 live --- Jul 2014"
+  - copy    : "Phase 1 and 2 live --- Sep 2014"
     complete  : false
 
 

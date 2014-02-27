@@ -2,11 +2,11 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Property register"
 exemplar-number: 5
-exemplar-blog-url: "www.blog.landregistry.gov.uk/"
+exemplar-blog-url: "http://blog.landregistry.gov.uk"
 
 
 department: "Department<br>for Business<br>Innovation & Skills"
@@ -61,13 +61,7 @@ status-live:
 
 successes: |
   - Two map-viewer tool prototypes built successfully using agile methods
-  
-challenges: |
-  
-  
-next-steps: |
-  
-  
+
 
 videos:
   - url   : https://www.youtube.com/watch?v=zpKKA80ClUk

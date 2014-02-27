@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Electoral Registration"
 exemplar-number: 1
@@ -68,7 +68,7 @@ status-beta:
     complete  : false
 
 status-live:
-  - copy      : "Service to go live --- Jun 2014"
+  - copy      : "Service to go live (England and Wales) --- Jun 2014"
     complete  : false
   - copy      : "National media campaign --- Jul 2014"
     complete  : false
@@ -86,8 +86,8 @@ challenges: |
   - Complete development, rollout and test of local software enhancements
   
 next-steps: |
-  - User research for overseas voters
-  - Online registration for overseas voters
+  - Further user research for Overseas and Crown Servant voter transactions
+  - Online registration for Forces and Crown Servant voters
   - Build the team needed to run the live service
   - Performance testing and service improvements
   

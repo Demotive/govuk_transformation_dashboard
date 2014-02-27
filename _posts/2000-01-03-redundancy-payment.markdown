@@ -2,7 +2,7 @@
 
 layout: exemplar
 
-last-updated: "28 January, 2014"
+last-updated: "27 February 2014"
 
 exemplar-title: "Redundancy payments"
 exemplar-number: 3
@@ -39,7 +39,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "In beta development."
+status-strapline: "In beta development"
 
 status-discovery:
   - copy        : "Completed --- Jul 2013"
@@ -47,7 +47,7 @@ status-discovery:
 
 status-alpha:
   - copy        : "Phase to complete --- Dec 2013"
-    complete    : false
+    complete    : true
 
 status-beta:
   - copy    : "Target: beta start --- mid Jan 2014"
@@ -69,7 +69,6 @@ successes: |
   
 challenges: |
   - Investment in digital skills development needed in order to sustain the service
-  - Develop digital strategy 
  
 next-steps: |
   - Develop an operating model for the live service
