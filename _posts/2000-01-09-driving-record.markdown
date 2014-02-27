@@ -37,10 +37,10 @@ scope-of-exemplar: |
 
 
 anticipated-volume:
+  - number  : 6m
+    caption : Driver enquiries a year
   - number  : 500m
     caption : Insurers (hits / year)
-  - number  : 6m
-    caption : Drivers (forecast)
 
 
 status: "beta"
@@ -93,6 +93,8 @@ videos:
 
 
 screengrabs:
+  - filename    : 9-04-exemplar-view-driving-record.png
+    caption     : Private beta of View driving record, February 2014
   - filename    : 9-03-exemplar-driving-licence-online.png
     caption     : Beta of driver information, December 2013
   - filename    : 9-02-exemplar-driving-licence-online.png
