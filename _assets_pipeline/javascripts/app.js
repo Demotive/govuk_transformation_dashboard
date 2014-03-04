@@ -25,11 +25,10 @@ jQuery(function($) {
             media:link,
             captions:captionsf,
             url: youTubeURL,
-            flashHeight: '350px'
+            flashHeight: '323px'
         });
         // Grab the text if required
         if ($this.hasClass('titled')) {
-            console.log('arg');
             var $figcaption = $('<figcaption>' + $this.text() + '</figcaption>');
             $holder.prepend($figcaption);
         }
