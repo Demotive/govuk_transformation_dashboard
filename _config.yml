@@ -68,7 +68,7 @@ assets:
   # Sets CSS compressor. No compression by default.
   # Possible variants: 'yui', 'sass', nil
   #
-  css_compressor: ~
+  css_compressor: sass
   #
   # Sets cachebusting policy for generated assets.
   #
