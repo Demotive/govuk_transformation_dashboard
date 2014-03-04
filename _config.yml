@@ -11,6 +11,7 @@ redcarpet:
 permalink: :title.html
 
 exclude: [
+    config.ru,
     Procfile,
     Gemfile,
     Gemfile.lock,
@@ -21,7 +22,8 @@ exclude: [
     Gruntfile.js,
     jenkins.sh,
     package.json,
-    spec
+    spec,
+    vendor
 ]
 
 destination: _site/transformation
