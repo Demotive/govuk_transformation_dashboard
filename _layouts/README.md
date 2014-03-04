@@ -1,9 +1,9 @@
-Tranformation Dashboard & GOV.UK Template
-=========================================
+Transformation Dashboard & GOV.UK Template
+==========================================
 
 Check out https://github.com/alphagov/govuk_template then use the Liquid generator to get base files.
 
-From the generated package, views > layouts govuk_template.html should be moved into _layouts
+From the generated package, ```/views/layouts govuk_template.html``` should be moved into ```/_layouts```
 
 Within the template itself (govuk_template.html in this repo)
 
@@ -13,7 +13,7 @@ Within the template itself (govuk_template.html in this repo)
 * JS: ```{{ site.govuk_template_assets }}/javascripts/govuk-template.js becomes {% asset_path govuk-template.js %}```
 * Image paths remain the same
 
-Within _config.yml, ensure:
+Within ```/_config.yml``` ensure:
 
 ```govuk_template_assets: /transformation/assets```
 
@@ -23,9 +23,9 @@ Detail them here
 
 ### Assets
 
-Assets from the generated package are split between /_assets_pipline and /assets
+Assets from the generated package are split between ```/_assets_pipline``` and ```/assets```
 
-Within _assets_pipeline > govuk_template
+Within ```/_assets_pipeline/govuk_template```
 
 * javascripts folder
 * stylesheets css files ONLY
