@@ -11,10 +11,6 @@ From the generated package, ```/views/layouts govuk_template.html``` should be m
 * JS: ```{{ site.govuk_template_assets }}/javascripts/govuk-template.js``` becomes ```{% asset_path govuk-template.js %}```
 * Image paths remain the same
 
-Within ```/_config.yml``` ensure:
-
-```govuk_template_assets: /transformation/assets```
-
 ### Title and meta tag changes
 
 Detail them here
