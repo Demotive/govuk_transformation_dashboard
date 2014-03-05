@@ -8,7 +8,7 @@ redcarpet:
     smart
   ]
 
-permalink: :title
+permalink: :title.html
 
 exclude: [
     config.ru,
