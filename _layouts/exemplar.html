@@ -83,6 +83,10 @@ layout: govuk_template
         {% endfor %}
       {% endif %}
 
+      {% if page.videos-additional and page.videos-additional != '' %}
+        {{ page.videos-additional | markdownify }}
+      {% endif %}
+
       {% if page.successes and page.successes != '' %}
         <h2>Successes</h2>
         {{ page.successes | markdownify }}

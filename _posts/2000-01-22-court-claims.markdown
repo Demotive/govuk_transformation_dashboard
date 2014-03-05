@@ -87,10 +87,12 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=GbSkWm1kNoc"
-    caption : "Watch a short description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=UujKzlrkt4M"
-    caption : "Watch an update about the beta service, filmed December 2013."
+  - url     : https://www.youtube.com/watch?v=GbSkWm1kNoc
+    caption : Watch a short description of the exemplar
+  - url     : https://www.youtube.com/watch?v=UujKzlrkt4M
+    caption : Watch an update about the beta service, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=Tparz28lJN8
+    caption : Watch a short demo, repossessing a property online, filmed January 2014
 
 
 screengrabs:

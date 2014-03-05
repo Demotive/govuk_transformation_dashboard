@@ -87,8 +87,11 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=_ONCFJzA0CM"
-    caption : "Watch a demonstration of the service, filmed July 2013."
+  - url     : https://www.youtube.com/watch?v=CzXPSqD1kes
+    caption : Watch a short demo, extending permission to work in the UK, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.youtube.com/watch?v=_ONCFJzA0CM) introducing the service, filmed July 2013.
 
 
 screengrabs:

@@ -69,8 +69,8 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=cHPv3_P7aDQ"
-    caption : "Watch a demonstration of the service built by the Government Digital Service and DWP, delivered in October 2013."
+  - url     : https://www.youtube.com/watch?v=cHPv3_P7aDQ
+    caption : Watch a demonstration of the service built by the Government Digital Service and DWP, delivered in October 2013
 
 
 

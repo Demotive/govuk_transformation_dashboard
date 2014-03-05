@@ -26,8 +26,7 @@ next-month: |
     - The [Passports](/transformation/passports) exemplar, which replaces Criminal record checks, will complete discovery
 
 videos:
-    -
-        url: https://www.youtube.com/watch?v=lMNyzl0dlpo
-        caption: A short video from Sprint Alpha about the transformation programme
+    - url: https://www.youtube.com/watch?v=zbkxWchTyBU
+      caption: A quick look at our progress so far
 
 ---

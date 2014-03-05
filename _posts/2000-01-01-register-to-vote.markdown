@@ -94,11 +94,14 @@ next-steps: |
 
 videos:
   - url     : https://www.youtube.com/watch?v=TF4Nywjjie8
-    caption : Watch a short description of the exemplar, filmed December 2013.
+    caption : Watch a short description of the exemplar, filmed December 2013
   - url     : https://www.youtube.com/watch?v=uofEn9NtcgM
-    caption : Watch an update on the beta, filmed December 2013.
-  - url     : https://www.youtube.com/watch?v=EwhaHIhLCSk
-    caption : Watch a demonstration of the service's back end system, filmed July 2013.
+    caption : Watch an update on the beta, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=7TWvzH9dpN8
+    caption : Watch a short demo, registering online to vote, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.youtube.com/watch?v=EwhaHIhLCSk) of the service's back end system, filmed July 2013.
 
 
 screengrabs:

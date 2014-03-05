@@ -84,9 +84,11 @@ next-steps: |
 
 videos:
   - url   : https://www.youtube.com/watch?v=rSbfeVF1Fmg
-    caption : Watch a description of the exemplar.
+    caption : Watch a description of the exemplar
   - url   : https://www.youtube.com/watch?v=2aHHF1jMAiU
-    caption : Watch a short update about the beta, filmed December 2013.
+    caption : Watch a short update about the beta, filmed December 2013
+  - url   : https://www.youtube.com/watch?v=LGoz7tQ2YUs
+    caption : Watch a short demo, registering online to carry waste, filmed January 2014
 
 
 screengrabs:

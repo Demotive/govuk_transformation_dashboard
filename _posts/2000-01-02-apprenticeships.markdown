@@ -77,9 +77,9 @@ next-steps: |
 
 videos:
   - url   : https://www.youtube.com/watch?v=hnA5WPKM1VY
-    caption : Watch a short description of the exemplar, filmed December 2013.
+    caption : Watch a short description of the exemplar, filmed December 2013
   - url   : https://www.youtube.com/watch?v=tjiiai-Dy6w
-    caption : Watch a short update about the discovery findings, filmed December 2013.
+    caption : Watch a short update about the discovery findings, filmed December 2013
 
 
 

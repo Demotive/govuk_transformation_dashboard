@@ -79,10 +79,12 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=hLV0rZRoF8I"
-    caption : "Watch a description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=qkt4kkL81FI"
-    caption : "Watch an update about the beta, filmed December 2013."
+  - url     : https://www.youtube.com/watch?v=hLV0rZRoF8I
+    caption : Watch a description of the exemplar
+  - url     : https://www.youtube.com/watch?v=qkt4kkL81FI
+    caption : Watch an update about the beta, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=S5q-gqos9JI
+    caption : Watch a short demo, updating your traveller details online, filmed January 2014
 
 
 screengrabs:

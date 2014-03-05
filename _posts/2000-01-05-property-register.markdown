@@ -65,9 +65,9 @@ successes: |
 
 videos:
   - url   : https://www.youtube.com/watch?v=zpKKA80ClUk
-    caption : Watch footage from the 'Alpha in a day' event in July 2013, held by the Land Registry and the Government Digital Service.
+    caption : Watch footage from the 'Alpha in a day' event in July 2013, held by the Land Registry and the Government Digital Service
   - url   : https://www.youtube.com/watch?v=c0QEWLzinZQ
-    caption : Watch a demonstration of the mapping tool, filmed July 2013.
+    caption : Watch a demonstration of the mapping tool, filmed July 2013
 
 
 

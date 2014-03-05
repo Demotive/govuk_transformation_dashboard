@@ -92,12 +92,15 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=nsWv4yNKkkA"
-    caption : "Watch a description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=3RVcK1xRwH8"
-    caption : "Watch an update on how changes to the beta service since its release, filmed December 2013."
-  - url     : "https://www.youtube.com/watch?v=Espjr6YdFh4"
-    caption : "Watch a demonstration of the service, filmed July 2013."
+  - url     : https://www.youtube.com/watch?v=nsWv4yNKkkA
+    caption : Watch a description of the exemplar
+  - url     : https://www.youtube.com/watch?v=3RVcK1xRwH8
+    caption : Watch an update on how changes to the beta service since its release, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=Ijimev_xg4E
+    caption : Watch a short demo of some new features filmed January 2014
+
+videos-additional: |
+  You can watch a [demo](https://www.youtube.com/watch?v=Espjr6YdFh4) introducing the service, filmed July 2013.
 
 
 ---

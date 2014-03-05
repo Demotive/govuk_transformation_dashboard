@@ -74,10 +74,12 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=HG5f7KC1A6E"
-    caption : "Watch a description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=1SP-dh1-zWE"
-    caption : "Watch an update about the beta, filmed December 2013."
+  - url     : https://www.youtube.com/watch?v=HG5f7KC1A6E
+    caption : Watch a description of the exemplar
+  - url     : https://www.youtube.com/watch?v=1SP-dh1-zWE
+    caption : Watch an update about the beta, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=OcO9ulxj1iI
+    caption : Watch a short demo, opting into self-assessment email reminders, filmed January 2014
 
 
 screengrabs:

@@ -53,7 +53,7 @@ jQuery(function($) {
         });
         // Grab the text if required
         if ($this.hasClass('titled')) {
-            var $figcaption = $('<figcaption>' + $this.text() + '</figcaption>');
+            var $figcaption = $('<figcaption>' + $this.text() + ':</figcaption>');
             $holder.prepend($figcaption);
         }
     });

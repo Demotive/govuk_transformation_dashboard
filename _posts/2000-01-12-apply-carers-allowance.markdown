@@ -96,9 +96,12 @@ next-steps: |
 
 videos:
   - url     : https://www.youtube.com/watch?v=a4f5vqFRZp4
-    caption : Watch an update about the release of the beta, filmed October 2013.
-  - url     : https://www.youtube.com/watch?v=kLAs4fkTZtk
-    caption : Watch a demonstration of the service, filmed July 2013.
+    caption : Watch an update about the release of the beta, filmed October 2013
+  - url     : https://www.youtube.com/watch?v=rDFCqiq40_w
+    caption : Watch a short demo, making a claim online, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.gov.uk/transformation/apply-carers-allowance), checking whether you're eligible to make a claim, filmed July 2013.
 
 
 screengrabs:

@@ -77,9 +77,11 @@ next-steps: |
 
 videos:
   - url   : https://www.youtube.com/watch?v=x2Mh7BC3UHo
-    caption : Watch a description of the service, filmed December 2013.
+    caption : Watch a description of the service, filmed December 2013
   - url   : https://www.youtube.com/watch?v=VvCfK1OAVjU
-    caption : Watch an update about the private beta, filmed December 2013.
+    caption : Watch an update about the private beta, filmed December 2013
+  - url   : https://www.youtube.com/watch?v=szrHRapCN0g
+    caption : Watch a short demo, renewing a patent online, filmed January 2014
 
 
 screengrabs:

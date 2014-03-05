@@ -75,9 +75,9 @@ next-steps: |
 
 videos:
   - url     : https://www.youtube.com/watch?v=CROuz3Ghu08
-    caption : Watch a description of the exemplar.
+    caption : Watch a description of the exemplar
   - url     : https://www.youtube.com/watch?v=HykO6DRfznQ
-    caption : Watch an update from the DVLA team, filmed December 2013.
+    caption : Watch an update from the DVLA team, filmed December 2013
 
 
 

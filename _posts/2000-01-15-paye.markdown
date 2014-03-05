@@ -78,12 +78,15 @@ next-steps: |
   - Begin running a service that integrates [identity assurance](https://identityassurance.blog.gov.uk/)  
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=K59WRzw8heY"
-    caption : "Watch a description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=5LDwjlljLxA"
-    caption : "Watch an update on the beta, filmed December 2013."
-  - url     : "https://www.youtube.com/watch?v=z84SZaB3bRs"
-    caption : "Watch a demonstration of the beta service, filmed July 2013."
+  - url     : https://www.youtube.com/watch?v=K59WRzw8heY
+    caption : Watch a description of the exemplar
+  - url     : https://www.youtube.com/watch?v=5LDwjlljLxA
+    caption : Watch an update on the beta, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=KNLwiUy5YoQ
+    caption : Watch a short demo, reporting a new company car online, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.youtube.com/watch?v=z84SZaB3bRs) introducing the service, filmed July 2013.
 
 
 screengrabs:

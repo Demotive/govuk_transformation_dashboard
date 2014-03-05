@@ -89,10 +89,12 @@ next-steps: |
   
 
 videos:
-  - url     : "https://www.youtube.com/watch?v=5eYj5mgry0c"
-    caption : "Watch a description of the exemplar."
-  - url     : "https://www.youtube.com/watch?v=8-LST8yrhgY"
-    caption : "Watch an update about the alpha, filmed December 2013."
+  - url     : https://www.youtube.com/watch?v=5eYj5mgry0c
+    caption : Watch a description of the exemplar
+  - url     : https://www.youtube.com/watch?v=8-LST8yrhgY
+    caption : Watch an update about the alpha, filmed December 2013
+  - url     : https://www.youtube.com/watch?v=WHtgV1XzVYM
+    caption : Watch a short demo, booking a prison visit online, filmed January 2014
 
 
 screengrabs:

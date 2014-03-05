@@ -91,10 +91,13 @@ next-steps: |
   
 
 videos:
-  - url   : https://www.youtube.com/watch?v=FvtNyOVK4t8
-    caption : Watch a demonstration of the service, filmed July 2013.
   - url   : https://www.youtube.com/watch?v=3li7C1phTFQ
-    caption : Watch a short update from the team, filmed March 2013.
+    caption : Watch a short update from the team, filmed March 2013
+  - url   : https://www.youtube.com/watch?v=fczqFhmong0
+    caption : Watch a short demo, reporting a change of land use online, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.youtube.com/watch?v=FvtNyOVK4t8) introducing the service's mapping system, filmed July 2013.
 
 
 screengrabs:

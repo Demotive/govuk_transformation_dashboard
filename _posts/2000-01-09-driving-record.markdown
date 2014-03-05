@@ -82,14 +82,17 @@ next-steps: |
   
 
 videos:
-  - url   : https://www.youtube.com/watch?v=JBLyeGdliK0
-    caption : Watch a description of the exemplar, filmed December 2013.
-  - url   : https://www.youtube.com/watch?v=MgLQ3GI7SyU
-    caption : Watch an update about the progress of the service, filmed December 2013.
-  - url   : https://www.youtube.com/watch?v=1596bmHAOrg
-    caption : Watch a demonstration of the service, filmed July 2013.
   - url   : https://www.youtube.com/watch?v=fauL1iO7SlI
-    caption : Watch the DVLA team talk about their working process, filmed May 2013.
+    caption : Watch the DVLA team talk about their working process, filmed May 2013
+  - url   : https://www.youtube.com/watch?v=JBLyeGdliK0
+    caption : Watch a description of the exemplar, filmed December 2013
+  - url   : https://www.youtube.com/watch?v=MgLQ3GI7SyU
+    caption : Watch an update about the progress of the service, filmed December 2013
+  - url   : https://www.youtube.com/watch?v=vVca-cL5jJI
+    caption : Watch a short demo, viewing your driving record online, filmed January 2014
+
+videos-additional: |
+  You can also watch a [demo](https://www.youtube.com/watch?v=1596bmHAOrg) introducing the service, filmed May 2013.
 
 
 screengrabs:
