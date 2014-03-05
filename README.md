@@ -14,6 +14,9 @@ $ git submodule update
 
 The toolkit lives here: ```/_assets_pipeline/govuk_toolkit/```
 
+To update the toolkit to the latest release, ```$ git submodule update --remote --merge```
+Then add and commit with a useful message like "Updating toolkit"
+
 ### govuk_template
 
 Also using the [govuk_template](https://github.com/alphagov/govuk_template). Please see the README.md within ```/_layouts/``` for more info on integrating the template.
