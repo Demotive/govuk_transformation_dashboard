@@ -22,8 +22,8 @@ Also using the [govuk_template](https://github.com/alphagov/govuk_template). Ple
 
 Check out the repo, and make sure the toolkit submodule is present (see above).
 
-Install the various dependencies with [Bundler](http://bundler.io) --- ```$ bundle install```
+Install the various dependencies with [Bundler](http://bundler.io) - ```$ bundle install```
 
 Start the app: ```$ jekyll serve --watch```
 
-This will compile the site and serve it on http://localhost:4000/transformation/ --- any changes (apart from _config.yml) will be compiled without restarting the server. See [the Jekyll docs](http://jekyllrb.com/docs/home/) for more.
+This will compile the site and serve it on http://localhost:4000/transformation/ - any changes (apart from _config.yml) will be compiled without restarting the server. See [the Jekyll docs](http://jekyllrb.com/docs/home/) for more.
