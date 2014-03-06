@@ -101,7 +101,7 @@ videos:
     caption : Watch a short demo, making a claim online, filmed January 2014
 
 videos-additional: |
-  You can also watch a [demo](https://www.gov.uk/transformation/apply-carers-allowance), checking whether you're eligible to make a claim, filmed July 2013.
+  You can also watch a [demo](https://www.youtube.com/watch?v=kLAs4fkTZtk), checking whether you're eligible to make a claim, filmed July 2013.
 
 
 screengrabs:
