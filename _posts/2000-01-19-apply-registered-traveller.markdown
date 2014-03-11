@@ -88,10 +88,12 @@ videos:
 
 
 screengrabs:
+  - filename    : "19-existing-registered-traveller-scheme.png"
+    caption     : "Screenshot of existing service, August 2013"
   - filename    : "19-registered-traveller-alpha.png"
     caption     : "Screenshot of alpha, December 2013"
-  - filename    : "19-existing-registered-traveller-scheme.png"
-    caption     : "Screenshot of alpha, August 2013"
+  - filename    : "19-03-registered-traveller.png"
+    caption     : "Screenshot of beta, March 2014"
 
 
 ---
