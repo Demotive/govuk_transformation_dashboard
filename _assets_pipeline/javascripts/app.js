@@ -40,7 +40,8 @@ jQuery(function($) {
         var captionsf = $($mycaptions).length > 0 ? $($mycaptions).attr('href') : null;
         // Ensure that we extract the last part of the youtube link (the video id)
         // and pass it to the player() method
-        var link = $(this).attr('href').split("=")[1];
+        var href = $(this).attr('href');
+        var link = href.split("=")[1];
         // make sure we fetch the right SSL level
         var youTubeURL = (document.location.protocol + '//www.youtube.com/apiplayer?enablejsapi=1&version=3&playerapiid=');
         // Initialise the player
@@ -53,7 +54,7 @@ jQuery(function($) {
         });
         // Grab the text if required
         if ($this.hasClass('titled')) {
-            var $figcaption = $('<figcaption>' + $this.text() + ':</figcaption>');
+            var $figcaption = $('<figcaption data-url="' + href + '">' + $this.text() + ':</figcaption>');
             $holder.prepend($figcaption);
         }
     });
