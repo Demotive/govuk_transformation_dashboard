@@ -30,6 +30,10 @@ $live-colour: $grass-green;
   max-width: 60em;
   margin: 0 auto;
   padding: 0 1em 2em 1em;
+
+  @include ie(8) {
+    width: 60em;
+  }
 }
 
 .content-body {
