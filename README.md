@@ -30,3 +30,7 @@ Install the various dependencies with [Bundler](http://bundler.io) - ```$ bundle
 Start the app: ```$ jekyll serve --watch```
 
 This will compile the site and serve it on http://localhost:4000/transformation/ - any changes (apart from _config.yml) will be compiled without restarting the server. See [the Jekyll docs](http://jekyllrb.com/docs/home/) for more.
+
+### Release process
+
+This isn't nice at the moment. /transformation sits within the Design Principles app.
