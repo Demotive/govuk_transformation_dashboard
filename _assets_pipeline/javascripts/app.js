@@ -53,9 +53,10 @@ jQuery(function($) {
             flashHeight: '323px'
         });
         // Grab the text if required
-        if ($this.hasClass('titled')) {
-            var $figcaption = $('<figcaption data-url="' + href + '">' + $this.text() + ':</figcaption>');
-            $holder.prepend($figcaption);
+        var $figcaption = $('<figcaption data-url="' + href + '">' + $this.text() + ':</figcaption>');
+        if (!$this.hasClass('titled')) {
+            $figcaption.addClass('hidden');
         }
+        $holder.prepend($figcaption);
     });
 });

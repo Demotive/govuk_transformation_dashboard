@@ -91,6 +91,11 @@ body footer.content-body {
 
   margin-left: 0;
 
+  figcaption {
+    display: block;
+    visibility: visible;
+  }
+
   figcaption:after {
     content: " (" attr(data-url) ")";
     font-size: 90%;
