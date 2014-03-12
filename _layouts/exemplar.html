@@ -257,7 +257,7 @@ layout: govuk_template
         <p>For further information about this project please <a href="/contact/govuk">contact us</a>.</p>
       {% endif %}
       <div class="updated">
-        Last updated {{ page.last-updated }}
+        Last updated {{ site.time | date: "%-d %B %Y" }}
       </div>
     </footer>
 
