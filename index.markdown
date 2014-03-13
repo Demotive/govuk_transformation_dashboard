@@ -11,11 +11,13 @@ headline-title: Digital Transformation
 headline-subtitle: We’re transforming government by building digital services that are simpler, clearer and faster to use. We’re starting with 25 exemplar services. You can follow our progress here.
 
 intro: |
-    The [Government Digital Strategy](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research) and [departmental digital strategies](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research#departmental-digital-strategies) commit us to the redesigning and rebuilding of 25 significant ‘exemplar’ services. We’re going to make them simpler, clearer and faster to use. All these are to meet the [Digital By Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) by April 2014 and be completed by March 2015.
+    We’re redesigning and rebuilding 25 major government services, which we call exemplars, to make them simpler, clearer and faster to use.
 
-    This dashboard shows you which transactions are in the programme, what progress is being made, and the estimated scale of the digital service.
+    This dashboard lets you follow our progress. You can see which services are in the transformation programme, the scale of those services, and the stage of development they’re at.
 
-    [You can read more about the transformation programme on our blog.](https://digitaltransformation.blog.gov.uk/)
+    The exemplars should meet the [Digital By Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) by April 2014, and go live by March 2015.
+
+    You can read more about the transformation programme on the [transformation blog](https://digitaltransformation.blog.gov.uk/).
 
 this-month: |
     - HMRC launched a private beta of a new tax platform for exemplars [15](/transformation/paye), [16](/transformation/self-assessment) and [17](business-tax-account) with around 2,000 invited users
