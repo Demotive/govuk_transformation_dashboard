@@ -127,7 +127,8 @@ h1 {
     }
   }
   p {
-    @include core-36;
+    width: 85%;
+    @include core-27;
   }
 }
 
