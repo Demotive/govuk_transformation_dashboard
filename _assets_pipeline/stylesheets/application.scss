@@ -127,8 +127,11 @@ h1 {
     }
   }
   p {
-    width: 85%;
     @include core-27;
+    
+    @include media(tablet) {
+      width: 85%;
+    }
   }
 }
 
