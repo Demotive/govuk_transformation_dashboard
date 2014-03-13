@@ -71,7 +71,6 @@ $grey-6: #a1acb2;
     }
   
     ul {
-      @include core-16;
       list-style: none;
 
       border: 1px solid $grey-6;
@@ -92,12 +91,10 @@ $grey-6: #a1acb2;
     
       li {
         display: block;
-
         float: left;
         clear: left;
-
+        @include core-16;
         margin: 0 0 15px 0;
-
         width: 45.5%;
 
         &:nth-child(even) {
