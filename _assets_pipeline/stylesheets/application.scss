@@ -32,7 +32,7 @@ $live-colour: $grass-green;
   padding: 0 1em 2em 1em;
 
   @include ie-lte(8) {
-    width: 60em;
+    width: 960px;
   }
 }
 
@@ -44,6 +44,11 @@ $live-colour: $grass-green;
     float: left;
     padding-right: 60px;
   }
+
+  @include ie-lte(7) {
+    width: 580px;
+    padding-right: 0;
+  }
 }
 
 .content-sidebar {
@@ -53,6 +58,10 @@ $live-colour: $grass-green;
     width: $one-third;
     float: right;
     padding-left: 20px;
+  }
+
+  @include ie-lte(7) {
+    width: 300px;
   }
 }
 
@@ -64,6 +73,10 @@ $live-colour: $grass-green;
   margin: 0 auto;
   padding: 0 1em;
   max-width: 60em;
+
+  @include ie(6) {
+    width: 960px;
+  }
 
   ol {
     margin: 0;
@@ -197,6 +210,7 @@ ul {
     margin-left: 0;
     text-align: center;
 
+
     @include media(tablet) {
       width: 24%;
       float: left;
@@ -215,17 +229,21 @@ ul {
         margin: 0 (4%/8);
       }
     }
+
+    @include ie(6) {
+      margin: 0 (4%/4) 0 0;
+      background-color: $white;
+    }
   }
 
   h3 {
     @include bold-24;
     margin: 0;
-    padding: 0.2em 0;
     background-color: $panel-colour;
 
     a {
       display: block;
-      height: 100%;
+      padding: 0.2em 0;
       color: $white;
       text-decoration: none;
     }
@@ -335,6 +353,10 @@ ul {
   .phase-story {
     border-left: 1px solid;
 
+    @include ie(6) {
+      background-color: $white;
+    }
+
     &.discovery {
       border-color: $discovery-colour;
     }
@@ -390,6 +412,8 @@ ul {
       max-width: 80%;
     }
   }
+
+
 }
 
 .transformation-intro {
@@ -428,6 +452,16 @@ ul {
 
   @include media(desktop) {
     display: table;
+  }
+
+  @include ie-lte(7) {
+    position: relative;
+  }
+
+  thead {
+    @include ie-lte(7) {
+      display: none;
+    }
   }
 
   tr {
@@ -548,10 +582,18 @@ ul {
 .exemplar-statement {
   border-top: 1px solid $grey-2;
 
+  @include ie(6) { // might be ie-lte(7)
+    clear: both;
+  }
+
   blockquote {
     @include core-24;
     position: relative;
     margin: 1em 0;
+
+    @include ie(6) {
+      position: static;
+    }
 
     &:before {
       content: "“";
@@ -589,9 +631,21 @@ ul {
         clear: left;
       }
     }
+
+    @include ie-lte(7) {
+      float: none;
+      display: inline-block;
+      margin-left: 0;
+      vertical-align: top;
+    }
+    
     img {
       width: 100%;
       border: 1px solid $border-colour;
+
+      @include ie-lte(7) {
+        width: 250px;
+      }
     }
   }
 
