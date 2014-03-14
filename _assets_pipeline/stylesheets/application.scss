@@ -522,6 +522,10 @@ ul {
     @include media(desktop) {
       float: none;
     }
+
+    @include ie(9) {
+      width: auto;
+    }
   }
   .volume {
     margin-left: 10%;
@@ -536,6 +540,10 @@ ul {
     @include media(desktop) {
       float: none;
       width: 20%;
+    }
+
+    @include ie(9) {
+      width: auto;
     }
   }
   .department {
@@ -553,6 +561,10 @@ ul {
     @include media(desktop) {
       position: static;
       width: 20%;
+    }
+
+    @include ie(9) {
+      position: static;
     }
   }
 
