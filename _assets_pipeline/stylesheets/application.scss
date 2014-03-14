@@ -466,7 +466,6 @@ ul {
 
   tr {
     display: block;
-    position: relative;
     clear: both;
 
     border-top: 1px solid $border-colour;
@@ -482,10 +481,13 @@ ul {
 
   td {
     display: block;
+    float: left;
     vertical-align: top;
+    padding: 0;
 
     @include media(desktop) {
       display: table-cell;
+      float: none;
       padding: 10px 2% 1em 0;
       margin: 0;
       border-top: 1px solid $border-colour;
@@ -502,64 +504,59 @@ ul {
   }
 
   .exemplar-number {
-    //position: absolute;
-    float: left;
     width: 10%;
-    background-color: red;
 
     @include media(tablet) {
       width: 5%;
     }
 
     @include media(desktop) {
-      position: static;
       text-align: right;
     }
   }
   
   .description {
-    margin-left: 10%;
+    width: 90%;
 
     @include media(tablet) {
-      float: left;
-      margin-left: 0;
-      width: 55%;
+      width: 95%;
     }
 
     @include media(desktop) {
       float: none;
+      width: 55%;
     }
   }
   .volume {
     margin-left: 10%;
+    width: 90%;
     padding-bottom: 1em;
 
     @include media(tablet) {
-      float: left;
       margin-left: 5%;
-      width: 55%;
+      width: 95%;
     }
 
     @include media(desktop) {
       float: none;
       width: 20%;
+      margin-left: 0;
     }
   }
   .department {
     margin-left: 10%;
+    width: 90%;
     padding-bottom: 1em;
 
     @include media(tablet) {
-      position: absolute;
-      top: 0;
-      right: 0;
-      width: 30%;
-      padding-top: 1em;
+      margin-left: 5%;
+      width: 95%;
     }
 
     @include media(desktop) {
-      position: static;
+      float: none;
       width: 20%;
+      margin-left: 0;
     }
   }
 
