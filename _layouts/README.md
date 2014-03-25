@@ -13,7 +13,13 @@ From the generated package, ```/views/layouts govuk_template.html``` should be m
 
 ### Title and meta tag changes
 
-Detail them here
+Replace the ```<title>``` in the generated template file with:
+
+```
+<title>Digital Transformation{% if page.title %} of {{ page.title }}{% endif %} &mdash; GOV.UK</title>
+
+<meta name="description" content="Digital services so good people prefer to use them. The Government Digital Strategy and departmental digital strategies commit us to the redesigning and rebuilding of 25 significant 'exemplar' services. We're going to make them simpler, clearer and faster to use.">
+```
 
 ### Assets
 
