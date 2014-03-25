@@ -14,7 +14,7 @@ $ git submodule update
 
 The toolkit lives here: ```/_assets_pipeline/govuk_toolkit/```
 
-To update the toolkit to the latest release, ```$ git submodule update --remote --merge```
+To update the toolkit to the latest release, ```$ git submodule foreach git pull origin master```
 Then add and commit with a useful message like "Updating toolkit"
 
 ### govuk_template
