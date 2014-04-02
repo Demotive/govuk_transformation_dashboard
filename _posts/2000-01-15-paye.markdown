@@ -14,7 +14,7 @@ department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
 
 
 homepage-intro: |
-    If you want to check or update your PAYE status you will be able to do so online, and see the impact on the tax you pay
+    If you want to check or update your PAYE status you’ll be able to do it online, and see the impact on the tax you pay
 
 detail-page-intro: |
    Making Pay As You Earn digital for 41 million employees
@@ -41,25 +41,23 @@ status-strapline: "In private beta. This service is being built alongside [exemp
 
 
 status-discovery:
-  - copy      : "Completed --- Feb 2013"
+  - copy      : "Completed: Discovery --- Feb 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Complete: tax platform alpha --- Mar to May 2013"
+  - copy      : "Complete: Tax platform alpha build --- Mar to May 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Development of private beta --- Jun 2013 to Jan 2014"
+  - copy      : "Completed: Develop private beta --- Jun 2013 to Jan 2014"
     complete  : true
-  - copy      : "Private beta release --- Feb 2014"
+  - copy      : "Completed: Private beta release --- Feb 2014"
     complete  : true
   - copy      : "Public beta release --- Apr 2014"
     complete  : false
-  - copy      : "Continuous project delivery and wider departmental transformational work to take place and live service delivery dates to be determine as part of this"
-    complete  : false
-
+ 
 status-live:
-  - copy      : "Target: service will go live --- Mar 2015"
+  - copy      : "Service goes live --- Mar 2015"
     complete  : false
 
 

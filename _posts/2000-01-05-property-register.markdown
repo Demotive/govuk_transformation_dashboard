@@ -4,7 +4,7 @@ layout: exemplar
 
 exemplar-title: "Property register"
 exemplar-number: 5
-exemplar-blog-url: "http://blog.landregistry.gov.uk"
+exemplar-blog-url: "http://blog.landregistry.gov.uk/"
 
 
 department: "Department<br>for Business<br>Innovation & Skills"
@@ -15,7 +15,7 @@ programme: "Land Registry"
 
 
 homepage-intro: |
-    If you are interested in a property you can search an online map to find out more about it
+    If you’re interested in a property you can search an online map to find out more about it
 
 detail-page-intro: |
     598,000 online customer requests every year
@@ -41,11 +41,11 @@ status: "alpha"
 status-strapline: "The Land Registry is building the mapping service while talking to GDS about increasing the scope of the exemplar to include broader transformational change."
 
 status-discovery:
-  - copy        : "Completed --- May 2013"
+  - copy        : "Completed: Discovery --- May 2013"
     complete    : true
 
 status-alpha:
-  - copy        : "Completed --- Dec 2013"
+  - copy        : "Completed: Alpha build --- Dec 2013"
     complete    : true
 
 status-beta:
@@ -58,7 +58,7 @@ status-live:
 
 
 successes: |
-  - Two map-viewer tool prototypes built successfully using agile methods
+  - Two map-viewer tool prototypes built using agile methods
 
 
 videos:
@@ -69,7 +69,10 @@ videos:
 
 
 
+
 ---
+
+
 
 
 

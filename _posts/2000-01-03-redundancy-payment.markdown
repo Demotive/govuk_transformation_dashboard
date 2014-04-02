@@ -14,7 +14,7 @@ programme: "Insolvency Service"
 
 
 homepage-intro: |
-    If your company has recently become insolvent you will be able to apply for redundancy payment online
+    If your company has recently become insolvent you’ll be able to apply for redundancy payment online
 
 detail-page-intro: |
     100,000 new redundancy claims made each year
@@ -40,23 +40,23 @@ status: "beta"
 status-strapline: "In beta development"
 
 status-discovery:
-  - copy        : "Completed --- Jul 2013"
+  - copy        : "Completed: Discovery --- Jul 2013"
     complete    : true
 
 status-alpha:
-  - copy        : "Phase to complete --- Dec 2013"
+  - copy        : "Completed: Alpha build --- Dec 2013"
     complete    : true
 
 status-beta:
-  - copy    : "Target: beta start --- mid Jan 2014"
+  - copy    : "Completed: start beta development--- mid Jan 2014"
     complete  : true
-  - copy    : "Target: private beta released --- May 2014"
+  - copy    : "Private beta release --- May 2014"
     complete  : false
-  - copy    : "Target: public beta released --- May 2014"
+  - copy    : "Public beta release --- May 2014"
     complete  : false
 
 status-live:
-  - copy    : "Service to go live, target: Oct 2014"
+  - copy    : "Service goes live --- Oct 2014"
     complete  : false
 
 
@@ -66,12 +66,12 @@ successes: |
   - The alpha prototype passed the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) assessment
   
 challenges: |
-  - Investment in digital skills development needed in order to sustain the service
+  - Investment in digital skills development needed to sustain the service
  
 next-steps: |
   - Develop an operating model for the live service
   - Continue to make improvements to the service based on user feedback 
-  - Develop a digital strategy
+  - Develop a digital strategy 
 
 videos:
   - url: https://www.youtube.com/watch?v=2yXnblGFyMQ
@@ -79,6 +79,8 @@ videos:
 
 
 ---
+
+
 
 
 

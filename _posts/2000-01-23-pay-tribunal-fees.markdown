@@ -16,7 +16,7 @@ programme: "HM Courts and Tribunals Service"
 
 
 homepage-intro: |
-    If you're lodging an appeal to an employment tribunal you will be able to pay the accompanying fee online
+    If you're lodging an appeal to an employment tribunal you’ll be able to pay the accompanying fee online
 
 detail-page-intro: |
     200,000 employment tribunal fees paid online every year
@@ -51,15 +51,13 @@ status-alpha:
     complete  : true
 
 status-beta:
-  - copy      : "Completed: Public Beta --- Jul 2013"
+  - copy      : "Completed: Public beta development --- Jul 2013"
     complete  : true
-  - copy      : "Discovery work into scope of beta phase --- Jan 2014"
+  - copy      : Begin discovery work into scope of beta phase --- Jan 2014"
     complete  : true
-  - copy      : "Ongoing testing and development to public beta service --- Feb 2014"
-    complete  : false
 
 status-live:
-  - copy      : "To be determined"
+  - copy      : "Service goes live - date tbc"
     complete  : false
 
 
@@ -76,7 +74,7 @@ next-steps: |
   - Act on user research
   - Discuss widening the scope of the service
   - Develop the [assisted digital](https://www.gov.uk/government/publications/government-approach-to-assisted-digital) support
-  - Conclude public beta
+  - Finish public beta
   
 
 videos:

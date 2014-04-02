@@ -15,7 +15,7 @@ department-url: "https://www.gov.uk/government/organisations/department-for-work
 
 
 homepage-intro: |
-    If you’re a carer you will be able to apply for financial help from government using a simple online service
+    If you’re a carer you’ll be able to apply for financial help from government using a simple online service
 
 detail-page-intro: |
     240,000 people claim carer's allowance a year
@@ -55,25 +55,23 @@ status: "beta"
 status-strapline: "In public beta. Digital take-up of the service continues to increase."
 
 status-discovery:
-  - copy      : "Completed --- Sep 2013"
+  - copy      : "Completed: Discovery --- Sep 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Completed --- Dec 2013"
+  - copy      : "Completed: Alpha build --- Dec 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Completed: --- Jul 2013"
+  - copy      : "Completed: Private beta --- Jul 2013"
     complete  : true
-  - copy      : "Completed: public beta released --- Oct 2013"
+  - copy      : "Completed: Public beta released --- Oct 2013"
     complete  : true
-  - copy      : "Welsh language content translation --- Jan to Feb 2014"
-    complete  : false
-  - copy      : "Work on ‘assisted digital’ --- Feb 2014"
+  - copy      : "Improvements to service for users reporting a change in circumstances"
     complete  : false
 
 status-live:
-  - copy      : "Service go live --- (date tbc)"
+  - copy      : "Service goes live --- date tbc"
     complete  : false
 
 
@@ -88,8 +86,10 @@ challenges: |
   - Change business processes to accommodate running service teams
   
 next-steps: |
-  - Build the digital capability within the department to run the service
-  - Integrate the service with more of the department’s systems to improve operational efficiency
+  - Release Welsh language version of the service
+  - Work continues to make it easier for carers to report changes in circumstances
+  - Build the digital capability to run the service within the department  
+  - Integrate the service with more of the department’s systems to improve efficiency
   
 
 videos:

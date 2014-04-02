@@ -39,23 +39,23 @@ status: "beta"
 status-strapline: "In beta since 5 December 2013. Development on track."
 
 status-discovery:
-  - copy      : "Completed --- Jul 2013"
+  - copy      : "Completed: Discovery --- Jul 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Completed --- Nov 2013"
+  - copy      : "Completed: Alpha build --- Nov 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Beta development started --- Dec 2013"
+  - copy      : "Completed: Beta development --- Dec 2013"
     complete  : true
-  - copy      : "Private beta --- Mar 2014"
+  - copy      : "Private beta release --- Mar 2014"
     complete  : false
-  - copy      : "Public beta --- Jul 2014"
+  - copy      : "Public beta release --- Jul 2014"
     complete  : false
 
 status-live:
-  - copy      : "Service will go live --- Oct 2014"
+  - copy      : "Service goes live --- Oct 2014"
     complete  : false
   - copy      : "Live running of service and departmental transformational work to continue"
     complete  : false
@@ -70,7 +70,7 @@ challenges: |
   - Integrating the service with current systems
   
 next-steps: |
-  - Build and release a beta service
+  - Release a beta service
   - Expand the beta to get more frequent travellers using the service
   - Build an online payment system
   - Integrate the beta with current systems

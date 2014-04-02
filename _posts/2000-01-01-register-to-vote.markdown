@@ -44,50 +44,50 @@ status: "beta"
 status-strapline: "In beta and on track"
 
 status-discovery:
-  - copy      : "Completed --- Feb 2012"
+  - copy      : "Completed: Discovery --- Feb 2012"
     complete  : true
 
 status-alpha:
-  - copy      : "Completed --- May 2012"
+  - copy      : "Completed: Alpha build --- May 2012"
     complete  : true
 
 status-beta:
-  - copy      : "Completed registration system build --- Jun 2013"
+  - copy      : "Completed: Registration system build --- Jun 2013"
     complete  : true
-  - copy      : "Completed registration system local authority beta --- Sep 2013"
+  - copy      : "Completed: Registration system local authority beta --- Sep 2013"
     complete  : true
-  - copy      : "Ministerial approval given to launch service --- Dec 2013"
+  - copy      : "Completed: Ministerial approval given to launch service --- Dec 2013"
     complete  : true
-  - copy      : "Completed ordinary elector transaction --- Dec 2013"
+  - copy      : "Completed: Ordinary elector transaction --- Dec 2013"
     complete  : true
-  - copy      : "Completed live service environment build --- Jan 2014"
+  - copy      : "Completed: Live service environment build --- Jan 2014"
     complete  : true
-  - copy      : "Service accreditation --- Feb 2014"
+  - copy      : "Overseas and special category elector transactions --- Mar 2014"
     complete  : false
 
 status-live:
-  - copy      : "Service to go live (England and Wales) --- Jun 2014"
+  - copy      : "Service goes live (England and Wales) --- Jun 2014"
     complete  : false
   - copy      : "National media campaign --- Jul 2014"
     complete  : false
-  - copy      : "Service go live in Scotland --- Sep 2014"
+  - copy      : "Service goes live (Scotland) --- Sep 2014"
     complete  : false
 
 
 successes: |
+  - Minister gave live demo of register to vote transaction at the Sprint 14 event in January 
   - 387 local authorities can now check electoral registers against Department for Work and Pensions data
-  - Registration details of 46 million people checked during dry-run involving all local authorities
+  - Registration details of 46 million people checked during dry-run with all local authorities
   - Built online registration service for 99.9% of voters
   
 challenges: |
   - Ensuring the Cabinet Office’s capability to run the live service
-  - Complete development, rollout and test of local software enhancements
-  
+
 next-steps: |
-  - Further user research for Overseas and Crown Servant voter transactions
-  - Online registration for Forces and Crown Servant voters
   - Build the team needed to run the live service
-  - Performance testing and service improvements
+  - Conduct performance test
+  - Complete overseas, forces and crown servant elector transactions
+  - Work on Welsh language transaction
   
 
 videos:
@@ -112,3 +112,6 @@ screengrabs:
 
 
 ---
+
+
+

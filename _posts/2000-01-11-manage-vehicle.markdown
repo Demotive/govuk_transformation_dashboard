@@ -15,7 +15,7 @@ programme: "Driving and Vehicle Licensing Agency"
 
 
 homepage-intro: |
-    If you want to transfer ownership of a car you will be able to do it yourself online or using an intermediary
+    If you want to transfer ownership of a car you’ll be able to do it yourself online or using an intermediary
 
 detail-page-intro: |
     18 million vehicle owner transfers each year by businesses and citizens
@@ -41,23 +41,24 @@ status: "alpha"
 status-strapline: "Alpha development underway. The core service is being planned and designed, along with [exemplar number 10: Personalised registrations](/transformation/personalised-number-plates)."
 
 status-discovery:
-  - copy      : "Completed --- Oct 2013"
+  - copy      : "Completed: Discovery --- Oct 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Alpha development phase --- Jan 2014 to Mar 2014"
+  - copy      : "Alpha development --- Jan to Mar 2014"
     complete  : false
 
 status-beta:
-  - copy      : "Beta development --- Mar to Oct 2014"
+  - copy      : "Beta development --- Apr to Oct 2014"
     complete  : false
 
 status-live:
-  - copy      : "Dates to be determined"
+  - copy      : "Service goes live --- date tbc"
     complete  : false
 
 
 successes: |
+  - Vehicle management passed Alpha [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) assessment 
   - Discovery phase complete
   - User and business needs established
   - Potential security issues identified
@@ -68,7 +69,7 @@ challenges: |
   - Integrating with current systems and migrating data to secure cloud environment
   
 next-steps: |
-  - Alpha service assessment March 2014, commence Beta in April
+  - Start beta development
   
 
 videos:

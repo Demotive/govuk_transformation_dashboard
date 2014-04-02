@@ -16,7 +16,7 @@ programme: "Student Loans Company"
 
 
 homepage-intro: |
-    If you have, or are applying for, student loans and grants you will be able to manage them using an improved online service
+    If you have, or are applying for, student loans and grants you’ll be able to manage them using an improved online service
 
 detail-page-intro: |
     Supporting 1.3 million people using student finance services
@@ -49,13 +49,13 @@ status: "live"
 status-strapline: "Service is live and being expanded."
 
 status-discovery:
-  - copy        : "Completed --- Mar 2012"
+  - copy        : "Completed: Discovery --- Mar 2012"
     complete    : true
 
 status-alpha:
-  - copy        : "Completed: Disabled students invoicing project alpha --- Sep to Oct 2013"
+  - copy        : "Completed: Disabled students invoicing alpha --- Sep to Oct 2013"
     complete    : true
-  - copy        : "Full time student applications alpha --- Aug to Dec 2013"
+  - copy        : "Completed: Full time student applications alpha --- Aug to Dec 2013"
     complete    : true
   - copy        : "Core application service --- Oct 2013 to Jan 2015"
     complete    : false
@@ -63,39 +63,37 @@ status-alpha:
 status-beta:
   - copy    : "24+ advanced learning loan application public beta --- Aug 2013 to Aug 2014"
     complete  : false
-  - copy    : "Disabled Students Allowance invoicing in public beta --- Dec 2013 to Mar 2014"
+  - copy    : "Disabled Students Allowance invoicing public beta --- Dec 2013 to Mar 2014"
     complete  : false
-  - copy    : "Full time student applications for 2014/15 academic year public beta --- Jan 2014 to tbc"
+  - copy    : "Full time student applications (2014/15) public beta release --- Jan 2014"
     complete  : false
-  - copy    : "Core application service --- Jan 2015 to tbc"
+  - copy    : "Core application service --- from Jan 2015"
     complete  : false
 
 status-live:
-  - copy    : "Completed: Part time student loan applications --- Oct 2012"
+  - copy    : "Completed: Part time student loan application service goes live --- Oct 2012"
     complete  : true
-  - copy    : "24+ advanced learning loan applications (date tbc)"
+  - copy    : "24+ advanced learning loan applications goes live --- date tbc"
     complete  : false
-  - copy    : "Full time student applications (date tbc)"
+  - copy    : "Full time student applications goes live --- date tbc"
     complete  : false
-  - copy    : "Core application service (date tbc)"
+  - copy    : "Core application service goes live --- date tbc"
     complete  : false
-  - copy    : "Target: Core banking platform for loans and grants --- Jan 2015"
+  - copy    : "Core banking platform for loans and grants goes live --- Jan 2015"
     complete  : false
 
 
 successes: |
-  - Launch of full-time students digital applications service for academic year 2014 / 2015
-  - Reorganisation at the Student Loans Company to work better with digital services
+  - 82,182 digital applications for full-time students, academic year 2014 / 2015, were made within a month of the launch date
   - Service delivery team awarded TechExcel Best Agile Project at the [European Testing Awards](http://www.softwaretestingawards.com/2013winners.html)
   
 challenges: |
-  - Incorporating service manager roles within existing Student Loans Company business transformation programme
-  - Current hosting doesn’t meet the needs of the future service, and upgrading is taking longer than expected
+  - Incorporating service manager roles within the organisation’s transformation programme
+  - Current hosting won’t meet the future needs of the service, and upgrading is taking longer than expected
   
 next-steps: |
-  - Rebuild of the core service to include additional finance products
-  - Finalise procurement of the banking platform for the transformation programme
-  - Identify new areas for continual improvement to the service  
+  - Rebuild the core service to include additional finance products
+  - Identify new areas improve the service  
 
 videos:
   - url   : https://www.youtube.com/watch?v=gRwM34WuHzk
@@ -109,6 +107,8 @@ screengrabs:
     caption     : "Full-time student finance application 2014-15" 
 
 ---
+
+
 
 
 

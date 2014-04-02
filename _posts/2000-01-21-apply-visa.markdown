@@ -13,10 +13,10 @@ department-url: "https://www.gov.uk/government/organisations/home-office"
 
 
 homepage-intro: |
-    If you need a visa to visit the UK you will be able to apply using a simple online service
+    If you need a visa to visit the UK you’ll be able to apply using a simple online service
 
 detail-page-intro: |
-    If you need a visa to visit the UK you will be able to apply using a simple online service
+    If you need a visa to visit the UK you’ll be able to apply using a simple online service
 
 
 digital-strategy-statement: |
@@ -51,37 +51,40 @@ status: "beta"
 status-strapline: "Developing the private beta service."
 
 status-discovery:
-  - copy      : "Completed --- Feb 2013"
+  - copy      : "Completed: Discovery --- Feb 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Completed --- Jul 2013"
+  - copy      : "Completed: Alpha build --- Jul 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Completed private beta development --- Sep 2013 to Jan 2014"
+  - copy      : "Completed: Private beta development --- Sep 2013 to Jan 2014"
     complete  : true
-  - copy      : "Private beta release --- Feb 2014"
-    complete  : false
+  - copy      : "Completed: Private beta release --- Feb 2014"
+    complete  : true
   - copy      : "Public beta release --- May 2014"
     complete  : false
 
 status-live:
-  - copy      : "Target: service will go live --- Mar 2015"
+  - copy      : "Service goes live --- Mar 2015"
     complete  : false
 
 
 successes: |
-  - Service manager appointed
-  - Extensive [user research](http://digital.cabinetoffice.gov.uk/2013/10/09/testing-with-users-around-the-world/) with embassies around the world
+  - Team established --- service manager is now supported by product managers and owners
+  - Extensive [user research](http://digital.cabinetoffice.gov.uk/2013/10/09/testing-with-users-around-the-world/) user research with a range of groups, including overseas users and UK legal representatives
+  - Good feedback from private beta users
+  - Production system is proving efficient and can scale easily for many users 
+  - Easy to create and change visas products using the Home Office product catalogue
   
 challenges: |
-  - Adapting current methods to [agile](https://www.gov.uk/service-manual/agile) development
-  
+  - Existing teams and suppliers adapting to new working methods 
+
 next-steps: |
-  - Change the application form so other essential information can be submitted
-  - Release the private beta service 
-  - Start development of the public beta service
+  - Release the public beta service 
+  - Deliver the next items from the roadmap of visa and immigration products
+  - Refine the release pipeline activities to make them fully agile
   
 
 videos:

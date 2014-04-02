@@ -52,7 +52,7 @@ status-strapline: |
     Criminal record check is no longer an exemplar. It has been replaced by [Passports](/transformation/passports).
 
 status-discovery:
-  - copy      : "Completed --- Jul 2013"
+  - copy      : "Completed: Discovery --- Jul 2013"
     complete  : true
 
 ---

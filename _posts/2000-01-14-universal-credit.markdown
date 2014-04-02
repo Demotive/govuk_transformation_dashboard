@@ -34,23 +34,23 @@ status: "beta"
 status-strapline: "Digital strategic solution produced by joint GDS and DWP team, now transitioned to DWP. GDS supporting the team as they build skills and capability needed to continue developing the service."
 
 status-discovery:
-  - copy      : "Workshops with DWP and GDS --- Apr 2013"
+  - copy      : "Completed: Workshops with DWP and GDS --- Apr 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Ministerial oversight group ask GDS to start digital solution --- May 2013"
+  - copy      : "Completed: Ministerial oversight group ask GDS to start digital solution --- May 2013"
     complete  : true
-  - copy      : "Strategic solution (Digital) team established --- Jun 2013"
+  - copy      : "Completed: Strategic solution (Digital) team established --- Jun 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Delivered digital strategic solution --- Oct 2013"
+  - copy      : "Completed: Delivered digital strategic solution --- Oct 2013"
     complete  : true
-  - copy      : "Work to increase DWP digital capability"
+  - copy      : "Work to increase DWP digital capability --- date tbc"
     complete  : false
 
 status-live:
-  - copy      : "Release of digital strategic solution dependent on overall Universal Credit programme plan"
+  - copy      : "Release of digital strategic solution dependent on overall Universal Credit programme plan --- date tbc"
     complete  : false
 
 
@@ -63,7 +63,7 @@ challenges: |
   - Managing scale of the service as more complexity is added
   
 next-steps: |
-  - GDS and DWP find people, skills and suppliers to grow the digital team at DWP and operate the full service
+  - Find GDS and DWP people, skills and suppliers to grow the digital team at DWP and operate the full service
   
 
 videos:

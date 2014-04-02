@@ -14,7 +14,7 @@ department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
 
 
 homepage-intro: |
-    If you run a business you will be able to check how much tax you owe, learn about what you can and can’t claim, and pay your tax --- all in one place
+    If you run a business you’ll be able to check how much tax you owe, learn about what you can and can’t claim, and pay your tax --- all in one place
 
 detail-page-intro: |
     Easy to use online tax dashboard for up to 4.9 million small businesses and people in self-assessment
@@ -40,21 +40,21 @@ status: "beta"
 status-strapline: "In private beta. This service is being built alongside [exemplar 15: PAYE for employees](/transformation/paye) and [exemplar 16: Digital self-assessent](/transformation/self-assessment)."
 
 status-discovery:
-  - copy      : "Completed --- Feb 2013"
+  - copy      : "Completed: Discovery --- Feb 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Complete: tax platform alpha --- Mar to May 2013"
+  - copy      : "Completed: Tax platform alpha build --- Mar to May 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Development of private beta --- Jun 2013 to Jan 2014"
+  - copy      : "Completed: Development of private beta --- Jun 2013 to Jan 2014"
     complete  : true
-  - copy      : "Private beta --- Feb 2014"
+  - copy      : "Completed: Private beta --- Feb 2014"
     complete  : true
 
 status-live:
-  - copy      : "Target: service will go live --- Apr 2015"
+  - copy      : "Service goes live ---  Apr 2015"
     complete  : false
 
 
@@ -86,6 +86,5 @@ screengrabs:
 
 
 ---
-
 
 

@@ -14,7 +14,7 @@ programme: "Intellectual Property Office"
 
 
 homepage-intro: |
-    If you want to renew a patent you will be able to do it quickly and easily online
+    If you want to renew a patent you’ll be able to do it quickly and easily online
 
 detail-page-intro: |
     380,000 patents renewed online each year
@@ -40,29 +40,27 @@ status: "beta"
 status-strapline: "In private beta"
 
 status-discovery:
-  - copy        : "Completed --- Jul 2013"
+  - copy        : "Completed: Discovery --- Jul 2013"
     complete    : true
 
 status-alpha:
-  - copy        : "Completed --- Aug 2013"
+  - copy        : "Completed: Alpha build --- Aug 2013"
     complete    : true
 
 status-beta:
-  - copy    : "Private beta testing and developing --- Aug to Dec 2013"
+  - copy    : "Private beta development and testing --- Aug 2013 to Mar 2014"
     complete  : false
-  - copy    : "Release public beta --- Feb 2014"
+  - copy    : "Release public beta --- Mar 2014"
     complete  : false
 
 status-live:
-  - copy    : "Target: Service to go live --- Mar 2014"
-    complete  : false
-  - copy    : "Live running of service and departmental transformational work to continue"
+  - copy    : "Service goes live --- May 2014"
     complete  : false
 
 
 successes: |
   - Tested by the Parliamentary Under Secretary of State for Intellectual Property
-  - The private beta service passed the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) assessment
+  - Private beta service passed the [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) assessment
   
 challenges: |
   - A permanent service manager needs to be appointed
@@ -76,8 +74,6 @@ next-steps: |
 videos:
   - url   : https://www.youtube.com/watch?v=x2Mh7BC3UHo
     caption : Watch a description of the service, filmed December 2013
-  - url   : https://www.youtube.com/watch?v=VvCfK1OAVjU
-    caption : Watch an update about the private beta, filmed December 2013
   - url   : https://www.youtube.com/watch?v=szrHRapCN0g
     caption : Watch a short demo, renewing a patent online, filmed January 2014
 

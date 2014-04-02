@@ -54,19 +54,19 @@ status: "beta"
 status-strapline: "In beta and on track."
 
 status-discovery:
-  - copy      : "Completed --- Jul 2013"
+  - copy      : "Completed: Discovery --- Jul 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Completed --- Oct 2013"
+  - copy      : "Completed: Alpha build --- Oct 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Beta development started --- Nov 2013"
+  - copy      : "Completed: Start beta development --- Nov 2013"
     complete  : true
 
 status-live:
-  - copy      : "To be determined"
+  - copy      : "Service goes live --- date tbc"
     complete  : false
 
 

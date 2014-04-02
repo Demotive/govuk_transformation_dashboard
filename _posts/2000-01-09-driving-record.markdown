@@ -16,7 +16,7 @@ programme: "Driving and Vehicle Licencing Agency"
 
 
 homepage-intro: |
-    If you are a driver you will be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications. Drivers' data will be made available via a new DVLA enquiry platform built to handle high-volume enquiries
+    If you’re a driver you’ll be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications. Drivers' data will be made available via a new DVLA enquiry platform built to handle high-volume enquiries
 
 detail-page-intro: |
     Online access to driving records for up to 40 million drivers and the insurance industry
@@ -46,15 +46,15 @@ status: "beta"
 status-strapline: "In public beta"
 
 status-discovery:
-  - copy        : "Completed --- Jul 2012"
+  - copy        : "Completed: Discovery --- Jul 2012"
     complete    : true
 
 status-alpha:
-  - copy        : "Completed --- Jun 2013"
+  - copy        : "Completed: Alpha build --- Jun 2013"
     complete    : true
 
 status-beta:
-  - copy        : "Testing and development of beta product --- Feb 2014"
+  - copy        : "Completed: Testing and development of beta product --- Feb 2014"
     complete    : true
   - copy        : "Public beta release --- Mar 2014"
     complete    : true

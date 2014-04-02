@@ -14,7 +14,7 @@ department-url: "https://www.gov.uk/government/organisations/department-for-work
 
 
 homepage-intro: |
-    If you’re applying for financial help from government for living with disabilities there will be simple digital service for you to use
+    If you’re applying for financial help from government for living with disabilities there’ll be a simple digital service for you to use
 
 detail-page-intro: |
     Supporting 2 million people with an easy way to claim Personal Independence Payment online
@@ -42,21 +42,21 @@ status: "discovery"
 status-strapline: "Discovery complete. Further work on the Personal Independence Payment exemplar has been aligned with the delivery of managed reassessment that begins in October 2015."
 
 status-discovery:
-  - copy      : "Completed: discovery and pre-alpha --- Sep to Dec 2013"
+  - copy      : "Completed: Discovery and pre-alpha --- Sep to Dec 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Target: alpha development --- (date tbc)"
+  - copy      : "Alpha build --- date tbc"
     complete  : false
 
 status-beta:
-  - copy      : "Target: beta development to start --- (date tbc)"
+  - copy      : "Start beta development --- date tbc"
     complete  : false
-  - copy      : "Target: public beta --- (date tbc)"
+  - copy      : "Public beta release --- date tbc"
     complete  : false
 
 status-live:
-  - copy      : "Dates to be determined"
+  - copy      : "Service goes live --- date tbc"
     complete  : false
 
 

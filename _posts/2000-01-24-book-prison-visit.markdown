@@ -15,7 +15,7 @@ programme: "HM Prison Service"
 
 
 homepage-intro: |
-    If you're visiting a prison you will be able to use a single, national service, reducing staff time and offering a better experience for families, friends and professionals
+    If you're visiting a prison you’ll be able to book using a single, national service, reducing staff time and offering a better experience for families, friends and professionals
 
 detail-page-intro: |
     1.5 million prison visits booked online every year
@@ -54,23 +54,23 @@ status: "alpha"
 status-strapline: "Early alpha. Limited public alpha product being tested with prisons."
 
 status-discovery:
-  - copy      : "Completed --- Jul 2013"
+  - copy      : "Completed: Discovery --- Jul 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Alpha phase starts --- Oct 2013"
+  - copy      : "Completed: Start alpha build --- Oct 2013"
     complete  : true
-  - copy      : "User testing of alpha product with 4 prisons --- Dec 2013 to Feb 2014"
-    complete  : false
+  - copy      : "Completed: User testing of alpha product with 4 prisons --- Dec 2013 to Feb 2014"
+    complete  : true
 
 status-beta:
-  - copy      : "Beta development phase to start --- May 2014"
+  - copy      : "Start beta development --- May 2014"
     complete  : false
-  - copy      : "Target: public beta --- Dec 2014"
+  - copy      : "Public beta release --- Dec 2014"
     complete  : false
 
 status-live:
-  - copy      : "The service will go live --- Apr 2015"
+  - copy      : "Service goes live --- Apr 2015"
     complete  : false
 
 

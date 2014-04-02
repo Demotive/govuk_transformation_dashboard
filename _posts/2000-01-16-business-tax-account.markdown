@@ -14,7 +14,7 @@ department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
 
 
 homepage-intro: |
-    If you are registered for self-assessment you will be able to manage your tax affairs through a fully digital service, without any more confusing paper correspondence
+    If you’re registered for self-assessment you’ll be able to manage your tax affairs through a fully digital service, without any more confusing paper correspondence
 
 detail-page-intro: |
     Making self assessment fully digital for 10 million people
@@ -40,25 +40,23 @@ status: "beta"
 status-strapline: "In private beta. This service is being built alongside [exemplar 15: PAYE for employees](/transformation/paye) and [exemplar 17: Your tax account](/transformation/business-tax-account)."
 
 status-discovery:
-  - copy      : "Completed --- Feb 2013"
+  - copy      : "Completed: Discovery --- Feb 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Complete: tax platform alpha --- Mar to May 2013"
+  - copy      : "Completed: Tax platform alpha build --- Mar to May 2013"
     complete  : true
 
 status-beta:
-  - copy      : "Development of private beta --- Jun 2013 to Jan 2014"
+  - copy      : "Completed: Development of private beta --- Jun 2013 to Jan 2014"
     complete  : true
-  - copy      : "Private beta release --- Feb 2014"
+  - copy      : "Completed: Private beta release --- Feb 2014"
     complete  : true
   - copy      : "Public beta release --- Apr 2014"
     complete  : false
-  - copy      : "Continuous project delivery and wider departmental transformational work to take place and live service delivery dates to be determine as part of this"
-    complete  : false
-
+ 
 status-live:
-  - copy      : "Target: service will go live --- Mar 2015"
+  - copy      : "Service goes live --- Mar 2015"
     complete  : false
 
 

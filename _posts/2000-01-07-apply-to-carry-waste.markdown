@@ -45,19 +45,19 @@ status: "beta"
 status-strapline: "In public beta"
 
 status-discovery:
-  - copy        : "Completed --- Jul 2012"
+  - copy        : "Completed: Discovery --- Jul 2012"
     complete    : true
 
 status-alpha:
-  - copy        : "Phase 1 alpha completed --- Oct 2013"
+  - copy        : "Completed: Phase 1 alpha --- Oct 2013"
     complete    : true
 
 status-beta:
-  - copy    : "Phase 1 public beta --- mid Dec 2013"
+  - copy    : "Completed: Phase 1 public beta --- mid Dec 2013"
     complete  : true
   - copy    : "Phase 2 private beta --- Apr 2014"
     complete  : false
-  - copy    : "Phase 2 public beta --- July 2014"
+  - copy    : "Phase 2 public beta --- Jul 2014"
     complete  : false
 
 status-live:
@@ -96,3 +96,5 @@ screengrabs:
     caption     : Screenshot of registration process
 
 ---
+
+

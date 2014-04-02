@@ -40,45 +40,45 @@ status: "alpha"
 status-strapline: "In alpha"
 
 status-discovery:
-  - copy        : "Completed --- Oct 2013"
+  - copy        : "Completed: Discovery --- Oct 2013"
     complete    : true
 
 status-alpha:
-  - copy        : "Supplier selection for alpha phase --- Dec 2013"
+  - copy        : "Completed: Supplier selection for alpha phase --- Dec 2013"
     complete    : true
-  - copy        : "Alpha --- Feb to Apr 2014"
+  - copy        : "Alpha build --- Feb to Apr 2014"
     complete    : false
 
 status-beta:
-  - copy        : "Target: beta development start --- May 2014"
+  - copy        : "Begin beta development --- May 2014"
     Completed   : false
-  - copy        : "Target: public beta release --- Oct 2014"
+  - copy        : "Public beta release --- Oct 2014"
     complete    : false
 
 status-live:
-  - copy        : "Target: service to go live --- Feb 2015"
+  - copy        : "Service goes live --- Feb 2015"
     Completed   : false
 
 
 successes: |
   - Good communication between GDS and the Skills Funding Agency
-  - Technology partner on site
+  - Technology partner is on site
   
 challenges: |
   - Review of the Skills Funding Agency may have knock-on effects on the service
-  - Effect of possible changes to the National Apprenticeship Service is not yet known
   
 next-steps: |
-  - Develop digital capability within the National Apprenticeship Service and the Skills Funding Agency
+  - Develop digital capability within the exemplar team and the Skills Funding Agency
   - Finish alpha development and user research 
   
 
 videos:
   - url   : https://www.youtube.com/watch?v=hnA5WPKM1VY
     caption : Watch a short description of the exemplar, filmed December 2013
-  - url   : https://www.youtube.com/watch?v=tjiiai-Dy6w
-    caption : Watch a short update about the discovery findings, filmed December 2013
+
 
 
 
 ---
+
+

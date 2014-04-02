@@ -15,7 +15,7 @@ programme: "Driving and Vehicle Licensing Agency"
 
 
 homepage-intro: |
-    If you want to transfer or apply for a number plate you will be able do so online, without having to visit a DVLA office
+    If you want to transfer or apply for a number plate you’ll be able do it online, without having to visit a DVLA office
 
 detail-page-intro: |
     1.6 million personalised number plate registrations made online each year
@@ -41,25 +41,25 @@ status: "alpha"
 status-strapline: "Alpha development will begin in April 2014"
 
 status-discovery:
-  - copy      : "Completed --- Oct 2013"
+  - copy      : "Completed: Discovery --- Oct 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Alpha will begin in Apr 2014"
+  - copy      : "Start alpha build --- Apr 2014"
     complete  : false
 
 status-beta:
-  - copy      : "Beta will begin in Jul 2014"
+  - copy      : "Start beta developement --- Jul 2014"
     complete  : false
 
 status-live:
-  - copy      : "Dates to be determined"
+  - copy      : "Service goes live --- date tbc"
     complete  : false
 
 
 successes: |
   - Discovery phase complete
-  - User and business needs being developed
+  - User and business needs being developed together 
   - Potential security issues identified
   
 challenges: |
@@ -67,7 +67,7 @@ challenges: |
   - Integrating with current systems and migrating data to a secure cloud environment
   
 next-steps: |
-  - Alpha build of prototype
+  - Build alpha prototype
   - Integrate existing systems
   - Complete user analysis
   

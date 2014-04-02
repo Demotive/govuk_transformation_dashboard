@@ -17,7 +17,7 @@ programme: "Office of the Public Guardian"
 
 
 homepage-intro: |
-    If you're making a lasting power of attorney it will be easier, leading to fewer errors, encouraging more people to plan ahead for an uncertain future
+    If you're making a lasting power of attorney it’ll be easier, leading to fewer errors, encouraging more people to plan ahead for an uncertain future
 
 detail-page-intro: |
     244,000 applications each year
@@ -45,32 +45,36 @@ anticipated-volume:
 status: "beta"
 status-strapline: "In public beta and on track."
 
+status-discovery:
+  - copy      : "Completed: Discovery --- Feb 2012"
+    complete  : true
+
 status-alpha:
-  - copy      : "Completed --- Feb to Apr 2012"
+  - copy      : "Completed: Alpha build --- Feb to Apr 2012"
     complete  : true
 
 status-beta:
-  - copy      : "Beta development --- Jul 2012 to Jun 2013"
+  - copy      : "Completed: Beta development --- Jul 2012 to Jun 2013"
     complete  : true
-  - copy      : "Public beta --- Jul 2013"
+  - copy      : "Completed: Public beta --- Jul 2013"
     complete  : true
   - copy      : "Service migrates to production infrastructure --- May 2014"
     complete  : false
 
 status-live:
-  - copy      : "Target: Service will go live --- Jun 2014"
+  - copy      : "Service goes live --- Jun 2014"
     complete  : false
-  - copy      : "Target: New back end system will go live --- Jun 2014"
+  - copy      : "New back end system goes live --- Jun 2014"
     complete  : false
-  - copy      : "Work on development of deputyships service --- Apr to Jun 2014"
+  - copy      : "Build deputyships service --- Apr to Jun 2014"
     complete  : false
   - copy      : "Private release of deputyship service --- Jul 2014"
     complete  : false
   - copy      : "Public release of deputyship service and new back end --- Sep 2014"
     complete  : false
-  - copy      : "Existing legacy system decommissioned --- Oct to Nov 2014"
+  - copy      : "Decommission existing legacy system --- Oct to Nov 2014"
     complete  : false
-  - copy      : "Complete service to go live --- Dec 2014 to Mar 2015"
+  - copy      : "Complete service goes live --- Dec 2014 to Mar 2015"
     complete  : false
 
 

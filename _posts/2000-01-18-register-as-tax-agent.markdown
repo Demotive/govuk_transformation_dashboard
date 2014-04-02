@@ -14,7 +14,7 @@ department-url: "https://www.gov.uk/government/organisations/hm-revenue-customs"
 
 
 homepage-intro: |
-    If you are the tax agent for another company or individual you will be able to do everything they can with the new digital tax services on their behalf (update details, file returns, etc)
+    If you’re the tax agent for another company or individual you’ll be able to do everything they can with the new digital tax services on their behalf (update details, file returns, etc)
 
 detail-page-intro: |
     An easy to use online tax dashboard for 120,000 tax agents
@@ -40,25 +40,25 @@ status: "beta"
 status-strapline: "Output of discovery and alpha being incorporated into [identity assurance alpha discovery](https://identityassurance.blog.gov.uk/2013/11/28/organisation-and-authority-management/) for people who manage identity on behalf of organisations."
 
 status-discovery:
-  - copy      : "Completed --- Feb 2013"
+  - copy      : "Completed: Discovery --- Feb 2013"
     complete  : true
 
 status-alpha:
-  - copy      : "Complete: tax platform alpha --- Mar to May 2013"
+  - copy      : "Completed: Tax platform alpha build --- Mar to May 2013"
     complete  : true
 
 status-beta:
   - copy      : "Discovery and development work with the identity assurance (IDA) team --- Dec 2013 to Mar 2014"
     complete  : false
-  - copy      : "Target: Friends and family service released --- Apr 2014"
+  - copy      : "Release friends and family service --- Apr 2014"
     complete  : false
-  - copy      : "Target: Paid agents service released --- Aug 2014"
+  - copy      : "Release paid agents service --- Aug 2014"
     complete  : false
-  - copy      : "Target: Further paid agents service released --- Oct 2014"
+  - copy      : "Further paid agents service releases --- Oct 2014"
     complete  : false
 
 status-live:
-  - copy      : "Target: service will go live --- Mar 2015"
+  - copy      : "Service goes live --- Mar 2015"
     complete  : false
 
 
