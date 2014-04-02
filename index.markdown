@@ -17,7 +17,7 @@ intro: |
 
     [You can read more about the transformation programme on our blog.](https://digitaltransformation.blog.gov.uk/)
 
-this-month:
+this-month: |
     - The [Passports](/transformation/passports) exemplar has completed discovery
     - The [Visas](/transformation/visas) exemplar moved to private beta
     - The beta build has started on [Redundancy payments](/transformation/redundancy-payments)
