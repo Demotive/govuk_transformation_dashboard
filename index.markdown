@@ -8,7 +8,7 @@ live-count-caption: "Learning how to continuously improve the live service"
 
 headline-title: Digital Transformation
 
-headline-subtitle: We’re transforming government by building digital services that are simpler, clearer and faster to use. We’re starting with 25 exemplar services. You can follow our progress here.
+headline-subtitle: Digital services so good people prefer to use them
 
 intro: |
     The [Government Digital Strategy](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research) and [departmental digital strategies](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research#departmental-digital-strategies) commit us to the redesigning and rebuilding of 25 significant ‘exemplar’ services. We’re going to make them simpler, clearer and faster to use. All these are to meet the [Digital By Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) by April 2014 and be completed by March 2015.

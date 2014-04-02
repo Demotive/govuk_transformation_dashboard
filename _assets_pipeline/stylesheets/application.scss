@@ -140,10 +140,11 @@ h1 {
     }
   }
   p {
-    @include core-27;
+    @include core-24;
     
     @include media(tablet) {
-      width: 85%;
+      //width: 85%;
+      @include core-36;
     }
   }
 }
