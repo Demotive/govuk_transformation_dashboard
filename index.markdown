@@ -11,25 +11,23 @@ headline-title: Digital Transformation
 headline-subtitle: We’re transforming government by building digital services that are simpler, clearer and faster to use. We’re starting with 25 exemplar services. You can follow our progress here.
 
 intro: |
-    We’re redesigning and rebuilding 25 major government services, which we call exemplars, to make them simpler, clearer and faster to use.
+    The [Government Digital Strategy](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research) and [departmental digital strategies](https://www.gov.uk/government/collections/government-digital-strategy-reports-and-research#departmental-digital-strategies) commit us to the redesigning and rebuilding of 25 significant ‘exemplar’ services. We’re going to make them simpler, clearer and faster to use. All these are to meet the [Digital By Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) by April 2014 and be completed by March 2015.
 
-    This dashboard lets you follow our progress. You can see which services are in the transformation programme, the scale of those services, and the stage of development they’re at.
+    This dashboard shows you which transactions are in the programme, what progress is being made, and the estimated scale of the digital service.
 
-    The exemplars should meet the [Digital By Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) by April 2014, and go live by March 2015.
+    [You can read more about the transformation programme on our blog.](https://digitaltransformation.blog.gov.uk/)
 
-    You can read more about the transformation programme on the [transformation blog](https://digitaltransformation.blog.gov.uk/).
-
-this-month: |
-    - HMRC launched a private beta of a new tax platform for exemplars [15](/transformation/paye), [16](/transformation/self-assessment) and [17](business-tax-account) with around 2,000 invited users
+this-month:
+    - The [Passports](/transformation/passports) exemplar has completed discovery
+    - The [Visas](/transformation/visas) exemplar moved to private beta
     - The beta build has started on [Redundancy payments](/transformation/redundancy-payments)
     - [Apprenticeship applications](/transformation/apprenticeships) exemplar moved into alpha
-    - Over 80,000 applications have been made on the [Student finance](/transformation/apply-for-student-finance) service for full-time loan and grant applications since it went into public beta a month ago
-    - DVLA released a private beta for [View driving record](/transformation/driving-record)
+    - HMRC released a private beta for [PAYE for employees](/transformation/paye), [Digital self-assessment](/transformation/self-assessment) and [Your tax account](/transformation/business-tax-account) with around 2,000 invited users
 
 next-month: |
-    - The [Visas](/transformation/visas) exemplar will move to private beta
     - [Patent renewals](/transformation/renew-patent) will move to public beta
-    - The [Passports](/transformation/passports) exemplar, which replaces Criminal record checks, will complete discovery
+    - DVLA will release a public beta for [View driving record](/transformation/driving-record)
+    - HMRC will release a public beta for [PAYE for employees](/transformation/paye), [Digital self-assessment](/transformation/self-assessment) and [Your tax account](/transformation/business-tax-account) 
 
 videos:
     - url: https://www.youtube.com/watch?v=zbkxWchTyBU
