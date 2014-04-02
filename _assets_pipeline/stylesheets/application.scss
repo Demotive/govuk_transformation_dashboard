@@ -323,10 +323,6 @@ ul {
     background-color: $live-colour;
   }
 
-  &:hover {
-    color: $white;
-  }
-
   .exemplar-listing & {
     @include bold-16;
     position: relative;
@@ -338,6 +334,10 @@ ul {
     @include bold-19;
     text-transform: uppercase;
   }
+}
+
+a.phase-tag {
+  color: $white;
 }
 
 .phase-stories {
