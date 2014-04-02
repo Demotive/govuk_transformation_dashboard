@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Your tax account"
 exemplar-number: 17
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"

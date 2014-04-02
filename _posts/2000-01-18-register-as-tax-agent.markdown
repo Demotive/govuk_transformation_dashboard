@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Agent online self-serve"
 exemplar-number: 18
 exemplar-blog-url: "https://hmrcdigital.blog.gov.uk/"

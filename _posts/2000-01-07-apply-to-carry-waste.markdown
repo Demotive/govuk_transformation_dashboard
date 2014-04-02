@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Waste carrier registration"
 exemplar-number: 7
 exemplar-service-url: "https://www.gov.uk/register-waste-carrier"

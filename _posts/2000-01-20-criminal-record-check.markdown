@@ -4,8 +4,6 @@ layout: exemplar
 
 legacy-exemplar: true
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Criminal record check"
 exemplar-number: 20
 

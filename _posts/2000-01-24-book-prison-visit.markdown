@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Prison visit booking"
 exemplar-number: 24
 exemplar-blog-url: "www.blogs.justice.gov.uk/digital"

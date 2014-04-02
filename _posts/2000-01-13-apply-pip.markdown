@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Claim Personal Independence Payment (PIP)"
 exemplar-number: 13
 exemplar-blog-url: "https://dwpdigital.blog.gov.uk/"

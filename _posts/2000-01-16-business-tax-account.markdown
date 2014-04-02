@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Digital self-assessment"
 exemplar-number: 16
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"

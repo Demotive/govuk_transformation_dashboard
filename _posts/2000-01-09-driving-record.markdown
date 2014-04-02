@@ -2,11 +2,10 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "View driving record"
 exemplar-number: 9
-exemplar-blog-url: "www.dvladigital.blog.gov.uk"
+exemplar-service-url: https://www.gov.uk/view-driving-licence
+exemplar-blog-url: "https://dvladigital.blog.gov.uk/"
 
 
 department: "Department<br>for Transport"
@@ -44,7 +43,7 @@ anticipated-volume:
 
 
 status: "beta"
-status-strapline: "Development and testing underway for public beta launch end of March 2014"
+status-strapline: "In public beta"
 
 status-discovery:
   - copy        : "Completed --- Jul 2012"
@@ -57,13 +56,11 @@ status-alpha:
 status-beta:
   - copy        : "Testing and development of beta product --- Feb 2014"
     complete    : true
-  - copy        : "Target: public beta --- Mar 2014"
-    complete    : false
+  - copy        : "Public beta release --- Mar 2014"
+    complete    : true
 
 status-live:
-  - copy        : "The service is anticipated to go live in June 2014 depending on feedback from beta and subsequent development work"
-    complete    : false
-  - copy        : "Development of live service and dept transformational work to continue"
+  - copy        : "The service should go live in June 2014 depending on feedback from the public beta and subsequent development work"
     complete    : false
 
 
@@ -77,8 +74,8 @@ challenges: |
   - Gathering citizen and trade user feedback to develop and improve the service during public beta
   
 next-steps: |
-  - Begin public beta phase
   - Develop and integrate full identity assurance features
+  - Iterate the service ready for live [Digital by Default Service Standard](https://www.gov.uk/service-manual/digital-by-default) assessment
   
 
 videos:

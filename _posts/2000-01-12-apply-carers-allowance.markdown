@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Claim Carer's Allowance"
 exemplar-number: 12
 exemplar-performance-dashboard-url: "https://www.gov.uk/performance/carers-allowance"

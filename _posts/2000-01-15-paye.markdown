@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "PAYE for employees"
 exemplar-number: 15
 exemplar-blog-url: "www.hmrcdigital.blog.gov.uk"

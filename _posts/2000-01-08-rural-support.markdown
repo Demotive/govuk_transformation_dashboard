@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Rural support (Common Agricultural Policy)"
 exemplar-number: 8
 

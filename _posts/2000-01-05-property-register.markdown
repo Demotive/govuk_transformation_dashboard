@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Property register"
 exemplar-number: 5
 exemplar-blog-url: "http://blog.landregistry.gov.uk"

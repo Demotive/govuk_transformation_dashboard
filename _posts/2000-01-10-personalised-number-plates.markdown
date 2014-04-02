@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Personalised registrations"
 exemplar-number: 10
 exemplar-blog-url: "www.dvladigital.blog.gov.uk"

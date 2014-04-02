@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Vehicle management"
 exemplar-number: 11
 exemplar-blog-url: "https://dvladigital.blog.gov.uk/"

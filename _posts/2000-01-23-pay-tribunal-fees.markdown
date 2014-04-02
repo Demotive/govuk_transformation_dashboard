@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Employment tribunal fee payment"
 exemplar-number: 23
 exemplar-service-url: "https://www.gov.uk/apply-employment-tribunal"

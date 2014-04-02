@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Lasting power of attorney"
 exemplar-number: 25
 exemplar-service-url: "https://www.gov.uk/lasting-power-of-attorney"

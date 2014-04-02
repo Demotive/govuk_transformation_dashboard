@@ -2,8 +2,6 @@
 
 layout: exemplar
 
-last-updated: "27 February 2014"
-
 exemplar-title: "Student finance"
 exemplar-number: 6
 exemplar-service-url: "https://www.gov.uk/apply-online-for-student-finance"
